@@ -1,0 +1,15 @@
+{
+  "FolderOrderSettings":[
+    {"name":"Object","order":8,"path":"folders/Object.yy",},
+    {"name":"Room","order":3,"path":"folders/Room.yy",},
+    {"name":"Sprite","order":6,"path":"folders/Sprite.yy",},
+    {"name":"Tile Sets","order":5,"path":"folders/Tile Sets.yy",},
+  ],
+  "ResourceOrderSettings":[
+    {"name":"Kilan","order":1,"path":"objects/Kilan/Kilan.yy",},
+    {"name":"Sprite2","order":1,"path":"sprites/Sprite2/Sprite2.yy",},
+    {"name":"Sprite3","order":2,"path":"sprites/Sprite3/Sprite3.yy",},
+    {"name":"Sprite4","order":9,"path":"sprites/Sprite4/Sprite4.yy",},
+    {"name":"Sprite5","order":10,"path":"sprites/Sprite5/Sprite5.yy",},
+  ],
+}
