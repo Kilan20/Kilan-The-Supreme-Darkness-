@@ -1,6 +1,7 @@
 right = keyboard_check(ord("D"))
 left = keyboard_check(ord("A"))
 
+
 jump = keyboard_check_pressed(vk_space)
 
 
@@ -11,7 +12,8 @@ if hdir != 0{
 		x += hdir*1
 	}
 }
-	
+
+
 	world = layer_tilemap_get_id("Ground")
 	
 	
@@ -24,8 +26,26 @@ if hdir != 0{
 		gravity_speed = -2.5}
 	}
 	
-	
-	
-	
-	
 	y+=gravity_speed
+	
+	
+	
+	if hp <= 0{
+		instance_destroy(obj_Kilan)}
+		
+		
+		else if hp >= 6{
+			hp = 1}
+			
+			if mana <= 0{
+				instance_destroy(obj_Kilan)}
+				
+				
+mana_regen += 0.1
+
+if mana_regen >= 10{
+	mana++
+	mana_regen -=10}
+
+if mana >= 10{
+	mana_regen = false}

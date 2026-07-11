@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Sprite",
-    "path":"folders/Sprite.yy",
+    "name":"Sprite_DLS",
+    "path":"folders/Sprite_DLS.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
