@@ -19,3 +19,5 @@ gravity_speed -=2
 	if !place_meeting(x + hdir*1,y-1,Obj_dead_star){
 		x += hdir*1
 	}
+	
+	hp -=2
