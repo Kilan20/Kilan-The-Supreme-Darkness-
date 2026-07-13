@@ -49,3 +49,21 @@ if mana_regen >= 10{
 
 if mana >= 10{
 	mana_regen = false}
+	
+	
+	
+	
+	if (hdir != 0){
+		if (hdir > 0){
+			image_xscale =1
+		} else {
+			image_xscale =-1
+		}
+	}
+	
+	
+	
+	
+	
+
+	
