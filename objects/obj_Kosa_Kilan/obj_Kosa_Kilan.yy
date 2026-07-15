@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_wall_dead_star_2",
+  "%Name":"obj_Kosa_Kilan",
   "eventList":[],
   "managed":true,
-  "name":"obj_wall_dead_star_2",
+  "name":"obj_Kosa_Kilan",
   "overriddenProperties":[],
   "parent":{
-    "name":"Object_invisible_walls",
-    "path":"folders/Object/Object_invisible_walls.yy",
+    "name":"Object",
+    "path":"folders/Object.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,9 +28,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite_wall_dead_star",
-    "path":"sprites/Sprite_wall_dead_star/Sprite_wall_dead_star.yy",
+    "name":"Sprite_Kosa_Kilan",
+    "path":"sprites/Sprite_Kosa_Kilan/Sprite_Kosa_Kilan.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }

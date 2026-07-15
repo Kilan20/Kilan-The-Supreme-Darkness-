@@ -1,5 +1,6 @@
 right = keyboard_check(ord("D"))
 left = keyboard_check(ord("A"))
+selection = keyboard_check(ord("F")) // Подбор предмета.
 
 
 jump = keyboard_check_pressed(vk_space)
@@ -34,7 +35,7 @@ if hdir != 0{
 		instance_destroy(obj_Kilan)}
 		
 		
-		else if hp >= 6{
+		else if hp > hp_max{
 			hp = 1}
 			
 			if mana <= 0{
@@ -61,6 +62,26 @@ if mana >= 10{
 		}
 	}
 	
+	
+	
+	attack_cooldown += 0.1
+	if attack_cooldown >= 10{
+		attack_cooldown = 10}
+		
+		
+		
+		attack_cooldown2 +=0.1
+		if attack_cooldown2 >=11{
+			attack_cooldown2 =11}
+			if attack_cooldown >= 10{
+			attack_cooldown2 =10}
+			
+			
+			
+			if instance_number(Obj_swing_Koca) >= 1 and attack_cooldown2 =11{
+	instance_destroy(Obj_swing_Koca)
+	attack_cooldown2 -=11
+}
 	
 	
 	

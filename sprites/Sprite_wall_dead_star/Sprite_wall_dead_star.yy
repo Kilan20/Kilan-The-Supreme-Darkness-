@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Sprite",
-    "path":"folders/Sprite.yy",
+    "name":"Sprite_invisible_walls",
+    "path":"folders/Sprite/Sprite_invisible_walls.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

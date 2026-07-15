@@ -1,13 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"obj_wall_dead_star_2",
-  "eventList":[],
+  "%Name":"Obj_swing_Koca",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_wall_dead_star_2",
+  "name":"Obj_swing_Koca",
   "overriddenProperties":[],
   "parent":{
-    "name":"Object_invisible_walls",
-    "path":"folders/Object/Object_invisible_walls.yy",
+    "name":"Object",
+    "path":"folders/Object.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,9 +31,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite_wall_dead_star",
-    "path":"sprites/Sprite_wall_dead_star/Sprite_wall_dead_star.yy",
+    "name":"Sprite_swing_Koca",
+    "path":"sprites/Sprite_swing_Koca/Sprite_swing_Koca.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }

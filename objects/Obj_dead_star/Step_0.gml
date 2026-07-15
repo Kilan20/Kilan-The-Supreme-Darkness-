@@ -29,3 +29,13 @@ if left = true{
 	if right = true{
 	x++
 	image_angle -=4} else {right = false} // Тут тоже.
+	
+	
+	
+	
+	if hp_enemy <= 0{
+	instance_deactivate_object(Obj_dead_star)}
+	
+	
+	
+	

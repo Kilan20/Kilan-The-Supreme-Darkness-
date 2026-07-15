@@ -43,16 +43,12 @@ draw_sprite_part(Spr_mana, 0,0,0, 20, 200, 635,5)
 
 
 
+// draw_text(100,150, mana)
+//draw_text(100,150,Kosa_Kilan)
 
 
-
-
-
-
-
-
-
-
+draw_text(100,200,attack_cooldown2)
+draw_text(30,36,attack_cooldown)
 // draw_text(200,200,mana_regen)
 
 
