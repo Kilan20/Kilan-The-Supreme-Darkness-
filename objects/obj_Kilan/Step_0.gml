@@ -1,9 +1,12 @@
 right = keyboard_check(ord("D"))
 left = keyboard_check(ord("A"))
-selection = keyboard_check(ord("F")) // Подбор предмета.
+selection = keyboard_check(ord("F"))// Подбор предмета.
+up = keyboard_check(ord("W"))
+down =  keyboard_check(ord("S"))
 
 
-jump = keyboard_check_pressed(vk_space)
+
+jump = keyboard_check(vk_space)
 
 
 hdir = right - left
@@ -22,7 +25,6 @@ if hdir != 0{
 	   gravity_speed += 0.1
 	}else{
 		gravity_speed = 0
-		
 		if jump{
 		gravity_speed = -2.5}
 	}
@@ -66,7 +68,7 @@ if mana >= 10{
 	
 	attack_cooldown += 0.1
 	if attack_cooldown >= 10{
-		attack_cooldown = 10}
+		attack_cooldown = 10} //Только 
 		
 		
 		
@@ -74,14 +76,24 @@ if mana >= 10{
 		if attack_cooldown2 >=11{
 			attack_cooldown2 =11}
 			if attack_cooldown >= 10{
-			attack_cooldown2 =10}
+			attack_cooldown2 =10} 
 			
 			
 			
 			if instance_number(Obj_swing_Koca) >= 1 and attack_cooldown2 =11{
 	instance_destroy(Obj_swing_Koca)
-	attack_cooldown2 -=11
+	attack_cooldown2 -=11 //Тут волна атаки уьирается.
 }
+
+
+
+x = round(x)
+y = round(y)
+
+
+
+
+
 	
 	
 	
