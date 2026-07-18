@@ -1,0 +1,1 @@
+room_goto(R_Starting_location_Forest)
