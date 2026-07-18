@@ -1,11 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_Spikes",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"Obj_SlF_and_SlF2",
+  "eventList":[],
   "managed":true,
-  "name":"obj_Spikes",
+  "name":"Obj_SlF_and_SlF2",
   "overriddenProperties":[],
   "parent":{
     "name":"Object",
@@ -30,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite_Spikes",
-    "path":"sprites/Sprite_Spikes/Sprite_Spikes.yy",
+    "name":"Sprite_wall_dead_star",
+    "path":"sprites/Sprite_wall_dead_star/Sprite_wall_dead_star.yy",
   },
   "spriteMaskId":null,
   "visible":true,

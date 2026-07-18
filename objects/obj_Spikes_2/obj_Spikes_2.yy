@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_Spikes",
+  "%Name":"obj_Spikes_2",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_Spikes",
+  "name":"obj_Spikes_2",
   "overriddenProperties":[],
   "parent":{
     "name":"Object",

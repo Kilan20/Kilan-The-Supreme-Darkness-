@@ -1,11 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_Spikes",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"Obj_buff_health",
+  "eventList":[],
   "managed":true,
-  "name":"obj_Spikes",
+  "name":"Obj_buff_health",
   "overriddenProperties":[],
   "parent":{
     "name":"Object",
@@ -30,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite_Spikes",
-    "path":"sprites/Sprite_Spikes/Sprite_Spikes.yy",
+    "name":"Spr_buff_health",
+    "path":"sprites/Spr_buff_health/Spr_buff_health.yy",
   },
   "spriteMaskId":null,
   "visible":true,

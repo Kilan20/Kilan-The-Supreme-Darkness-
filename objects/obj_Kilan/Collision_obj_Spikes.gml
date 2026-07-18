@@ -1,3 +1,3 @@
 hp-=3
 
-gravity_speed = -2
+gravity_speed = -3
