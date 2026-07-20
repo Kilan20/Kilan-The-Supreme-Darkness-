@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Sprite_areas",
-    "path":"folders/Sprite/Sprite_areas.yy",
+    "name":"Sprite_platform",
+    "path":"folders/Sprite/Sprite_areas/Sprite_platform.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

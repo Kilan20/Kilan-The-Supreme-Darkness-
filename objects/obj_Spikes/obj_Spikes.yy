@@ -8,8 +8,8 @@
   "name":"obj_Spikes",
   "overriddenProperties":[],
   "parent":{
-    "name":"Object",
-    "path":"folders/Object.yy",
+    "name":"Object_traps",
+    "path":"folders/Object/Object_areas/Object_traps.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -6,8 +6,8 @@
   "name":"obj_Piece_Ground",
   "overriddenProperties":[],
   "parent":{
-    "name":"Object",
-    "path":"folders/Object.yy",
+    "name":"Object_platform",
+    "path":"folders/Object/Object_areas/Object_platform.yy",
   },
   "parentObjectId":null,
   "persistent":false,

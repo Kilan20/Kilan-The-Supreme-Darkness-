@@ -1,0 +1,1 @@
+hp_enemy_death_bee -=10

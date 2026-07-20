@@ -13,6 +13,10 @@ if (hp == 1){
 	draw_sprite_part(Spr_Health, 0, 0, 0, 80,23,20,26)
 } else if (hp == 6){
 	draw_sprite_part(Spr_Health_2, 0, 0, 0, 14,23,20,26)
+} else if (hp == 7){
+	draw_sprite_part(Spr_Health_2, 0, 0, 0, 28,23,20,26)
+} else if (hp == 8){
+	draw_sprite_part(Spr_Health_2, 0, 0, 0, 42,23,20,26)
 }
 
 
