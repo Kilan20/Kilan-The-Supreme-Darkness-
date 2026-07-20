@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_buff_health",
+  "%Name":"Obj_buff_health2",
   "eventList":[],
   "managed":true,
-  "name":"Obj_buff_health",
+  "name":"Obj_buff_health2",
   "overriddenProperties":[],
   "parent":{
     "name":"Object_buff",
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Spr_buff_health",
-    "path":"sprites/Spr_buff_health/Spr_buff_health.yy",
+    "name":"Spr_buff_health2",
+    "path":"sprites/Spr_buff_health2/Spr_buff_health2.yy",
   },
   "spriteMaskId":null,
   "visible":true,

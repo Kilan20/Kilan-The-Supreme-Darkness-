@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_SlF_and_SlF2",
+  "%Name":"obj_Piece_Ground_2",
   "eventList":[],
   "managed":true,
-  "name":"Obj_SlF_and_SlF2",
+  "name":"obj_Piece_Ground_2",
   "overriddenProperties":[],
   "parent":{
     "name":"Object",
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite_wall_dead_star",
-    "path":"sprites/Sprite_wall_dead_star/Sprite_wall_dead_star.yy",
+    "name":"Sprite_Piece_Ground",
+    "path":"sprites/Sprite_Piece_Ground/Sprite_Piece_Ground.yy",
   },
   "spriteMaskId":null,
   "visible":true,

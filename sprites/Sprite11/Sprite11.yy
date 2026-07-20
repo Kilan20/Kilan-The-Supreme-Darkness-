@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Sprite_DLS",
-    "path":"folders/Sprite_DLS.yy",
+    "name":"Sprite_musor",
+    "path":"folders/Sprite_musor.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
