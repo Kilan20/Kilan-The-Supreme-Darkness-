@@ -1,3 +1,8 @@
+if (!activate){
+	exit
+}
+
+
 
 draw_sprite(Spr_Health_Back,0,20,26)
 
@@ -55,6 +60,7 @@ draw_sprite_part(Spr_mana, 0,0,0, 20, 200, 635,5)
 
 draw_text(100,200,attack_cooldown2)
 draw_text(30,36,attack_cooldown)
+draw_text(40,40,persistent)
 // draw_text(200,200,mana_regen)
 
 

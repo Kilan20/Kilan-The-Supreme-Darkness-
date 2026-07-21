@@ -1,3 +1,8 @@
+if (!activate){
+	exit
+}
+
+
 right = keyboard_check(ord("D"))
 left = keyboard_check(ord("A"))
 selection = keyboard_check(ord("F"))// Подбор предмета.
@@ -68,7 +73,7 @@ if mana >= 10{
 	
 	attack_cooldown += 0.1
 	if attack_cooldown >= 10{
-		attack_cooldown = 10} //Только 
+		attack_cooldown = 10} //Только.
 		
 		
 		
@@ -82,12 +87,9 @@ if mana >= 10{
 			
 			if instance_number(Obj_swing_Koca) >= 1 and attack_cooldown2 =11{
 	instance_destroy(Obj_swing_Koca)
-	attack_cooldown2 -=11 //Тут волна атаки уьирается.
+	attack_cooldown2 -=11 //Тут волна атаки убирается.
 }
-
 
 
 x = round(x)
 y = round(y)
-
-

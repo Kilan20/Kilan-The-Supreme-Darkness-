@@ -1,1 +1,2 @@
 room_goto(R_Starting_location_Forest)
+instance_activate_object(obj_Kilan)

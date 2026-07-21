@@ -28,6 +28,7 @@
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"Obj_death_bee","path":"objects/Obj_death_bee/Obj_death_bee.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_wall_dead_star_6","path":"objects/obj_wall_dead_star_6/obj_wall_dead_star_6.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"Obj_buff_health2","path":"objects/Obj_buff_health2/Obj_buff_health2.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_Kilan",
