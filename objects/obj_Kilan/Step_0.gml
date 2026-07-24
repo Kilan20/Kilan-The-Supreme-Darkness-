@@ -91,5 +91,19 @@ if mana >= 10{
 }
 
 
+if Kosa_Kilan = true{
+	instance_deactivate_object(obj_Kosa_Kilan)
+	} //Удаляем объект если его уже подобрали.
+
+if buff_health1 = false{
+	instance_deactivate_object(Obj_buff_health) //Если бафф убран то удаляем.
+}
+if buff_health2 = false{
+	instance_deactivate_object(Obj_buff_health2)
+}
+
+
+
+
 x = round(x)
 y = round(y)

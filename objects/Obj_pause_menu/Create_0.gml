@@ -11,7 +11,15 @@ update_pause = function()
 	else
 	{
 		layer_set_visible(layer_name, false);
+		layer_set_visible("SaveLayer", false)
+		layer_set_visible("LoadLayer", false)
 	}
 }
 
 update_pause();
+
+
+
+
+layer_set_visible("SaveLayer", false)
+layer_set_visible("LoadLayer", false)

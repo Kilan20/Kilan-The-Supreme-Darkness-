@@ -22,7 +22,12 @@ if (hp == 1){
 	draw_sprite_part(Spr_Health_2, 0, 0, 0, 28,23,20,26)
 } else if (hp == 8){
 	draw_sprite_part(Spr_Health_2, 0, 0, 0, 42,23,20,26)
+} else if (hp == 9){
+	draw_sprite_part(Spr_Health_2, 0, 0, 0, 56,23,20,26)
+} else if (hp == 10){
+	draw_sprite_part(Spr_Health_2, 0, 0, 0, 80,23,20,26)
 }
+
 
 
 
@@ -61,6 +66,8 @@ draw_sprite_part(Spr_mana, 0,0,0, 20, 200, 635,5)
 draw_text(100,200,attack_cooldown2)
 draw_text(30,36,attack_cooldown)
 draw_text(40,40,persistent)
+draw_text(50,50,buff_health1)
+draw_text(70,50,buff_health2)
 // draw_text(200,200,mana_regen)
 
 

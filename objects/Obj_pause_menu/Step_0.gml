@@ -22,8 +22,13 @@ if paused == true or room == R_Menu{
 if room == R_Menu{
 	paused = false
 	esn = false
+	layer_set_visible("SaveLayer", false)
+	layer_set_visible("LoadLayer", false)
 }
 
+/*
 if paused = true{
 	layer_set_visible(layer_name, true)
 }
+*/
+
