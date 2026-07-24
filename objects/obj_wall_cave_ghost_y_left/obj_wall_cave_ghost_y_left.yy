@@ -1,15 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"Object_cave_ghost",
+  "%Name":"obj_wall_cave_ghost_y_left",
   "eventList":[],
   "managed":true,
-  "name":"Object_cave_ghost",
+  "name":"obj_wall_cave_ghost_y_left",
   "overriddenProperties":[],
   "parent":{
-    "name":"Object",
-    "path":"folders/Object.yy",
+    "name":"Object_wall_cave_ghost",
+    "path":"folders/Object/Object_invisible_walls/Object_wall_cave_ghost.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_wall_cave_ghost_y_down",
+    "path":"objects/obj_wall_cave_ghost_y_down/obj_wall_cave_ghost_y_down.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -28,9 +31,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite_cave_ghost",
-    "path":"sprites/Sprite_cave_ghost/Sprite_cave_ghost.yy",
+    "name":"Sprite_wall_dead_star",
+    "path":"sprites/Sprite_wall_dead_star/Sprite_wall_dead_star.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

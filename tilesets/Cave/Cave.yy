@@ -18,8 +18,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"Sprite24",
-    "path":"sprites/Sprite24/Sprite24.yy",
+    "name":"Sprite_cave",
+    "path":"sprites/Sprite_cave/Sprite_cave.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{

@@ -1,0 +1,1 @@
+hp_cave_ghost-=other.damage
