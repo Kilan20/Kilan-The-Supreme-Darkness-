@@ -4,10 +4,10 @@ y += move_speed_cave_ghost
 tictac +=1
 randomize()
 
-if tictac >= 10{
+if tictac >= 20{
 	y += irandom_range(1,1)
 	x += irandom_range(-20,20) //Рандоино двигается.
-	tictac -= 10
+	tictac -= 20
 }
 
 

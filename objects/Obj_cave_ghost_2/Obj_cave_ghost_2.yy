@@ -7,6 +7,8 @@
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"Obj_swing_Koca","path":"objects/Obj_swing_Koca/Obj_swing_Koca.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_wall_cave_ghost_y_down","path":"objects/obj_wall_cave_ghost_y_down/obj_wall_cave_ghost_y_down.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_wall_cave_ghost_y_up","path":"objects/obj_wall_cave_ghost_y_up/obj_wall_cave_ghost_y_up.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_wall_cave_ghost_y_right","path":"objects/obj_wall_cave_ghost_y_right/obj_wall_cave_ghost_y_right.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_wall_cave_ghost_y_left","path":"objects/obj_wall_cave_ghost_y_left/obj_wall_cave_ghost_y_left.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"Obj_cave_ghost_2",

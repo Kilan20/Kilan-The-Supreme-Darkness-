@@ -101,9 +101,22 @@ if buff_health1 = false{
 if buff_health2 = false{
 	instance_deactivate_object(Obj_buff_health2)
 }
-
-
-
+{ // Активация и деактивация платформы
+if rat < 0{ //Запускаем таймер появления если платформы пропали. Rat объявляет что платорфмы пропали.
+	tici+=0.1
+} 
+	if tici >= 5{ //Для того чтобы платформы появились.
+			rat +=1 //Запускает всё циклично.
+			instance_activate_object(Obj_cave_platform_6)
+			tici -=5
+			}
+			
+			if tici = 6{
+				tici = 1
+			} if rat = 2{
+				rat = 1
+			}
+}
 
 x = round(x)
 y = round(y)
