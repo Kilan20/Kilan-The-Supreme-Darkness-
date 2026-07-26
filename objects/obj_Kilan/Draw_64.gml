@@ -73,7 +73,9 @@ draw_text(70,50,buff_health2)
 //draw_text(100,90,rat)
 // draw_text(200,200,mana_regen)
 
-if (instance_exists(Obj_ghost_boss_cave)){
+if (instance_exists(Obj_ghost_boss_cave)){ //Хп барр у босса нашего.
+	draw_text(100,50,Obj_ghost_boss_cave.image_angle)
+	draw_text(150,50,Obj_ghost_boss_cave.image_yscale)
 	draw_text(100,100, Obj_ghost_boss_cave.boss_barr)
 	
 	if Obj_ghost_boss_cave.boss_barr = true{

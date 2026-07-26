@@ -122,6 +122,7 @@
     {"id":{"name":"R_Starting_location_Forest_2","path":"rooms/R_Starting_location_Forest_2/R_Starting_location_Forest_2.yy",},},
     {"id":{"name":"R_Starting_location_Forest","path":"rooms/R_Starting_location_Forest/R_Starting_location_Forest.yy",},},
     {"id":{"name":"RoomUI","path":"roomui/RoomUI/RoomUI.yy",},},
+    {"id":{"name":"Script1","path":"scripts/Script1/Script1.yy",},},
     {"id":{"name":"Spr_buff_health","path":"sprites/Spr_buff_health/Spr_buff_health.yy",},},
     {"id":{"name":"Spr_buff_health2","path":"sprites/Spr_buff_health2/Spr_buff_health2.yy",},},
     {"id":{"name":"Spr_Health_2","path":"sprites/Spr_Health_2/Spr_Health_2.yy",},},

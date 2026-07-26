@@ -53,7 +53,7 @@
         {"$GMRInstance":"v4","%Name":"inst_2937B1D7","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2937B1D7","objectId":{"name":"Obj_roomTransitions","path":"objects/Obj_roomTransitions/Obj_roomTransitions.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.390625,"scaleY":1.6875,"x":0.0,"y":493.0,},
         {"$GMRInstance":"v4","%Name":"inst_9DE00D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_9DE00D","objectId":{"name":"Obj_cave_platform_5","path":"objects/Obj_cave_platform_5/Obj_cave_platform_5.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1054.0,"y":552.5,},
         {"$GMRInstance":"v4","%Name":"inst_65512A7E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_65512A7E","objectId":{"name":"Obj_cave_platform_5","path":"objects/Obj_cave_platform_5/Obj_cave_platform_5.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":859.0,"y":552.5,},
-        {"$GMRInstance":"v4","%Name":"inst_6D96A027","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6D96A027","objectId":{"name":"Obj_ghost_boss_cave","path":"objects/Obj_ghost_boss_cave/Obj_ghost_boss_cave.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1115.0,"y":515.0,},
+        {"$GMRInstance":"v4","%Name":"inst_6D96A027","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6D96A027","objectId":{"name":"Obj_ghost_boss_cave","path":"objects/Obj_ghost_boss_cave/Obj_ghost_boss_cave.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1123.0,"y":489.5,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4279176977,"depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
@@ -73,7 +73,7 @@
   "resourceType":"GMRoom",
   "resourceVersion":"2.0",
   "roomSettings":{
-    "Height":768,
+    "Height":764,
     "inheritRoomSettings":false,
     "persistent":true,
     "Width":1360,
