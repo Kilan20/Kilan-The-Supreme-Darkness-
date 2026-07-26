@@ -69,14 +69,25 @@ draw_text(30,36,attack_cooldown)
 draw_text(40,40,persistent)
 draw_text(50,50,buff_health1)
 draw_text(70,50,buff_health2)
+draw_text(39,69,global.boss_dead_check)
 //draw_text(90,90,tici)
 //draw_text(100,90,rat)
 // draw_text(200,200,mana_regen)
 
 if (instance_exists(Obj_ghost_boss_cave)){ //Хп барр у босса нашего.
+	
+	
+	/*
 	draw_text(100,50,Obj_ghost_boss_cave.image_angle)
 	draw_text(150,50,Obj_ghost_boss_cave.image_yscale)
 	draw_text(100,100, Obj_ghost_boss_cave.boss_barr)
+	draw_text(200,200, Obj_ghost_boss_cave.state)
+	draw_text(200,300, Obj_ghost_boss_cave.hp_boss)
+	draw_text(300,300, Obj_ghost_boss_cave.projectile_reloading)
+	*/
+	
+	
+	
 	
 	if Obj_ghost_boss_cave.boss_barr = true{
 		draw_sprite(Sprite_boss_bar_back,0,340,400)

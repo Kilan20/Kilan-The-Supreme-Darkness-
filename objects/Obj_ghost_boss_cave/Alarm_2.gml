@@ -1,0 +1,6 @@
+if state =STATE_BOSS_GHOST_CAVE.REST{
+	state = STATE_BOSS_GHOST_CAVE.ATTACK
+}
+
+
+alarm[2] = 60*4

@@ -10,5 +10,8 @@ buff_health1 = true
 buff_health2 = true
 
 
+boss_dead_check = false
 
+
+global.boss_dead_check = false
 

@@ -118,5 +118,11 @@ if rat < 0{ //Запускаем таймер появления если пла
 			}
 }
 
+if global.boss_dead_check = true {
+	instance_destroy(Obj_ghost_boss_cave)
+}
+
+
+
 x = round(x)
 y = round(y)

@@ -1,5 +1,6 @@
 if hp_boss <= 0{
-	instance_destroy(Obj_ghost_boss_cave);
+	instance_deactivate_object(Obj_ghost_boss_cave);
+	global.boss_dead_check = true
 } //Потом осле его смерти ворота A открывать.
 
 
@@ -8,7 +9,7 @@ if (distance_to_object(obj_Kilan)<vision_distance_ghost_cave_boss) {
 }
 
 
-
+if instance_exists(obj_Kilan){
 
 switch(state){
 	case STATE_BOSS_GHOST_CAVE.PIECE:
@@ -34,17 +35,37 @@ switch(state){
 	
 	
 	case STATE_BOSS_GHOST_CAVE.REST:
-	
+		
 	break;
 	
 }
-
+}
+if instance_exists(obj_Kilan){
 image_angle = point_direction(x, y, obj_Kilan.x, obj_Kilan.y)
+}
 if image_angle <= 220{
 	image_yscale = -1
 } else{
 	image_yscale = 1 //Перевороты спрайта.
 }
+
+if  hp_boss <= 140 {
+	projectile_reloading =40
+} 
+if hp_boss <= 100{
+	projectile_reloading =20
+} 
+if hp_boss <= 60{
+	projectile_reloading =10
+}
+if hp_boss <= 40{
+	projectile_reloading =5
+} 
+if hp_boss <= 20{
+	projectile_reloading =1
+}
+
+
 
 x = round(x)
 y = round(y)

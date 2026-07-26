@@ -14,6 +14,7 @@ obj_Kilan.buff_health1 = ini_read_string("Buff_health1", "buff_health1", 0) //З
 obj_Kilan.buff_health2 = ini_read_string("Buff_health2", "buff_health2", 0)
 
 
+global.boss_dead_check = ini_write_string("Global.boss_dead_check", "global.boss_dead_check",0) //Загружаем жиа ли босс.
 
 
 obj_Kilan.Kosa_Kilan = ini_read_string("Kosa_Kilan", "kosa_Kilan",0)
