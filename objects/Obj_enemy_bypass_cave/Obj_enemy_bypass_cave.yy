@@ -6,8 +6,8 @@
   "name":"Obj_enemy_bypass_cave",
   "overriddenProperties":[],
   "parent":{
-    "name":"Object",
-    "path":"folders/Object.yy",
+    "name":"Object_auxiliary",
+    "path":"folders/Object/Object_auxiliary.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -6,8 +6,8 @@
   "name":"obj_Kosa_Kilan",
   "overriddenProperties":[],
   "parent":{
-    "name":"Object",
-    "path":"folders/Object.yy",
+    "name":"Object_pickup_items",
+    "path":"folders/Object/Object_pickup_items.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -70,6 +70,10 @@ draw_text(40,40,persistent)
 draw_text(50,50,buff_health1)
 draw_text(70,50,buff_health2)
 draw_text(39,69,global.boss_dead_check)
+draw_text(60,69,global.projectile_Kilan_controller)
+draw_text(100,69,global.projectile_Kilan_controller_2)
+
+
 //draw_text(90,90,tici)
 //draw_text(100,90,rat)
 // draw_text(200,200,mana_regen)
@@ -107,12 +111,13 @@ if arrow_controller = true and room = R_Cave_boss and Obj_pause_menu.paused != t
 	
 	arrow = draw_sprite(Spr_arrow_1, 0, 400,200)
 }
-
+{ //На всякий случай. Уже не нужный инвентарь.
+/*
 if tab {
 
 	
 
-
+var deamitr = 200 // Контроль дальности.
 
 
 var columns = 5;
@@ -123,13 +128,37 @@ global.items_size; i++) {
 	
 	
 	draw_sprite(Sprit_items_cell, 0, 
-		0 + column * rastoan, 
-	0 + row * rastoan);
-		draw_sprite(Sprite_chadow_projectile, 
-	global.item[i],
-			0 + column * rastoan, 
-	0 + row * rastoan);
+		deamitr + column * rastoan, 
+	deamitr + row * rastoan);
 }
+
 }
+*/
+}
+//Доделать.
+
+
+
+
+
+
+
+
+
+
+/*
+
+if (instance_exists(Obj_botton)){
+	draw_text(39,100,Obj_botton.)
+*/
+
+
+
+
+
+
+
+
+
 
 

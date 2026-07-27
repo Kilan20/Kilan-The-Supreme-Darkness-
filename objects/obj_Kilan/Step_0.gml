@@ -8,7 +8,9 @@ left = keyboard_check(ord("A"))
 selection = keyboard_check(ord("F"))// Подбор предмета.
 up = keyboard_check(ord("W"))
 down =  keyboard_check(ord("S"))
-tab = keyboard_check(vk_tab)
+q = keyboard_check(ord("Q"))
+
+
 
 
 
@@ -126,6 +128,32 @@ if global.boss_dead_check = true {
 		arrow_controller = true // Контролирует стрелку.
 	}
 }
+
+
+
+
+
+if shadow_projectile_Kilan = true and global.projectile_Kilan_controller = true{
+	instance_activate_object(Obj_shadow_projectile_Kilan_inventory_A)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

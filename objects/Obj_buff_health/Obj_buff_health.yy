@@ -7,7 +7,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Object_buff",
-    "path":"folders/Object/Object_buff.yy",
+    "path":"folders/Object/Object_pickup_items/Object_buff.yy",
   },
   "parentObjectId":null,
   "persistent":false,

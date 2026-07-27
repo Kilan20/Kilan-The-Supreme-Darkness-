@@ -1,8 +1,24 @@
 Kosa_Kilan = false
 gpu_set_tex_filter(false);
 world = layer_tilemap_get_id("Ground")
+
+
+
 Kosa_Kilan_Controller = true
 
+
+
+
+
+global.projectile_Kilan_controller = true //Контроль как она находится в инвенторе. Именно в запасе тоесть A.
+global.projectile_Kilan_controller_2 = false //Это контроль над активной ячейкой.
+
+
+
+
+
+shadow_projectile_Kilan = false //Контролирует подобрали ли магию или нет.
+controller_inventory = false //Контролирует инвентарь.
 
 
 
@@ -21,7 +37,8 @@ arrow_controller = false //Контроль стрелки.
 
 
 
-
+{ //Остатки от инвенторя.
+/*
 global.item = []
 global.items_size = 20;
 
@@ -33,3 +50,16 @@ for (i = 0; i < global.items_size; i++){
 
 
 rastoan = 20; // Растояние между ячейками.
+*/
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

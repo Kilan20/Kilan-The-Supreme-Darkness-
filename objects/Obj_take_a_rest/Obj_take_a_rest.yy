@@ -8,8 +8,8 @@
   "name":"Obj_take_a_rest",
   "overriddenProperties":[],
   "parent":{
-    "name":"Object_botton",
-    "path":"folders/Object/Object_botton.yy",
+    "name":"Object_botton_main_menu",
+    "path":"folders/Object/Object_botton/Object_botton_main_menu.yy",
   },
   "parentObjectId":null,
   "persistent":false,

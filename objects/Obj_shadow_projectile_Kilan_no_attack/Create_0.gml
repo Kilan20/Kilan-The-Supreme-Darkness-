@@ -1,0 +1,1 @@
+move_speed_shadow_projectile_Kilan = 0.1

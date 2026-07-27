@@ -40,6 +40,8 @@
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"Obj_ghost_fence_boss_fight_B","path":"objects/Obj_ghost_fence_boss_fight_B/Obj_ghost_fence_boss_fight_B.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"Obj_chadow_projectile","path":"objects/Obj_chadow_projectile/Obj_chadow_projectile.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"Obj_Pedestal","path":"objects/Obj_Pedestal/Obj_Pedestal.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"Obj_shadow_projectile_Kilan_no_attack","path":"objects/Obj_shadow_projectile_Kilan_no_attack/Obj_shadow_projectile_Kilan_no_attack.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_Kilan",
