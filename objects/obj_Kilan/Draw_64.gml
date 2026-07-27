@@ -73,7 +73,7 @@ draw_text(39,69,global.boss_dead_check)
 //draw_text(90,90,tici)
 //draw_text(100,90,rat)
 // draw_text(200,200,mana_regen)
-
+{ //Хп барр босса.
 if (instance_exists(Obj_ghost_boss_cave)){ //Хп барр у босса нашего.
 	
 	
@@ -98,14 +98,38 @@ if (instance_exists(Obj_ghost_boss_cave)){ //Хп барр у босса наш�
 		
 	}
 } 
+}
 
 
 
 
-//Полоса босса.
+if arrow_controller = true and room = R_Cave_boss and Obj_pause_menu.paused != true{ //Условие добавить что шар не подобран.
+	
+	arrow = draw_sprite(Spr_arrow_1, 0, 400,200)
+}
+
+if tab {
+
+	
 
 
 
 
+var columns = 5;
+for (var i = 0; i<
+global.items_size; i++) {
+	var column = i % columns;
+	var row = i div columns;
+	
+	
+	draw_sprite(Sprit_items_cell, 0, 
+		0 + column * rastoan, 
+	0 + row * rastoan);
+		draw_sprite(Sprite_chadow_projectile, 
+	global.item[i],
+			0 + column * rastoan, 
+	0 + row * rastoan);
+}
+}
 
 

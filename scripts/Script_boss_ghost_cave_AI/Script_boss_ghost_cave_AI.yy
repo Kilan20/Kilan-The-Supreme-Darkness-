@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"Script1",
+  "%Name":"Script_boss_ghost_cave_AI",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"Script1",
+  "name":"Script_boss_ghost_cave_AI",
   "parent":{
     "name":"Script",
     "path":"folders/Script.yy",

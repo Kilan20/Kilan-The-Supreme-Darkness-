@@ -15,3 +15,21 @@ boss_dead_check = false
 
 global.boss_dead_check = false
 
+
+
+arrow_controller = false //Контроль стрелки.
+
+
+
+
+global.item = []
+global.items_size = 20;
+
+for (i = 0; i < global.items_size; i++){
+	global.item[i] = 0;
+}
+
+
+
+
+rastoan = 20; // Растояние между ячейками.

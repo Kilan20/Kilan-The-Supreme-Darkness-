@@ -8,6 +8,7 @@ left = keyboard_check(ord("A"))
 selection = keyboard_check(ord("F"))// Подбор предмета.
 up = keyboard_check(ord("W"))
 down =  keyboard_check(ord("S"))
+tab = keyboard_check(vk_tab)
 
 
 
@@ -120,6 +121,10 @@ if rat < 0{ //Запускаем таймер появления если пла
 
 if global.boss_dead_check = true {
 	instance_destroy(Obj_ghost_boss_cave)
+	instance_destroy(Obj_ghost_fence_boss_fight_B)
+	if (room == R_Cave_boss){
+		arrow_controller = true // Контролирует стрелку.
+	}
 }
 
 

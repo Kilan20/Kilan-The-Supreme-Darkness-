@@ -39,6 +39,7 @@
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"Obj_ghost_fence_boss_fight_A","path":"objects/Obj_ghost_fence_boss_fight_A/Obj_ghost_fence_boss_fight_A.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"Obj_ghost_fence_boss_fight_B","path":"objects/Obj_ghost_fence_boss_fight_B/Obj_ghost_fence_boss_fight_B.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"Obj_chadow_projectile","path":"objects/Obj_chadow_projectile/Obj_chadow_projectile.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_Kilan",

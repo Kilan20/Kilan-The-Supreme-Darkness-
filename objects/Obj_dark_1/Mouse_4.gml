@@ -21,7 +21,7 @@ ini_write_string("Buff_health2", "buff_health2", obj_Kilan.buff_health2)
 
 
 
-ini_write_string("Global.boss_dead_check", "global.boss_dead_check", global.boss_dead_check) //Сохраняем жив ли босс.
+ini_write_real("Global.boss_dead_check", "global.boss_dead_check", global.boss_dead_check) //Сохраняем жив ли босс.
 
 
 
