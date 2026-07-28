@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_wall_dead_star",
+  "%Name":"Obj_shadow_projectile_Kilan_attack",
   "eventList":[],
   "managed":true,
-  "name":"obj_wall_dead_star",
+  "name":"Obj_shadow_projectile_Kilan_attack",
   "overriddenProperties":[],
   "parent":{
-    "name":"Object_wall_dead_star",
-    "path":"folders/Object/Object_invisible_walls/Object_wall_dead_star.yy",
+    "name":"Object_attack",
+    "path":"folders/Object/Object_attack.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,9 +28,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite_wall_dead_star",
-    "path":"sprites/Sprite_wall_dead_star/Sprite_wall_dead_star.yy",
+    "name":"Sp_shadow_projectile_Kilan",
+    "path":"sprites/Sp_shadow_projectile_Kilan/Sp_shadow_projectile_Kilan.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }

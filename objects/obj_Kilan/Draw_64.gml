@@ -69,9 +69,11 @@ draw_text(30,36,attack_cooldown)
 draw_text(40,40,persistent)
 draw_text(50,50,buff_health1)
 draw_text(70,50,buff_health2)
+draw_text(70,70,buff_health2_1)
 draw_text(39,69,global.boss_dead_check)
 draw_text(60,69,global.projectile_Kilan_controller)
 draw_text(100,69,global.projectile_Kilan_controller_2)
+//draw_text(100,100,gravity_speed)
 
 
 //draw_text(90,90,tici)
@@ -107,7 +109,7 @@ if (instance_exists(Obj_ghost_boss_cave)){ //Хп барр у босса наш�
 
 
 
-if arrow_controller = true and room = R_Cave_boss and Obj_pause_menu.paused != true{ //Условие добавить что шар не подобран.
+if arrow_controller = true and room = R_Cave_boss and Obj_pause_menu.paused != true and arrow_controller_2 =! true{ //Условие добавить что шар не подобран.
 	
 	arrow = draw_sprite(Spr_arrow_1, 0, 400,200)
 }
@@ -139,11 +141,11 @@ global.items_size; i++) {
 
 
 
+if arrow_controller_2 = true and room = R_Cave_boss and Obj_pause_menu.paused != true and !place_meeting(x,y, obj_wall_dead_star_8){
 
-
-
-
-
+	arrow_2 = draw_sprite(Spr_arrow, 0, 200,200)
+	
+}
 
 
 /*

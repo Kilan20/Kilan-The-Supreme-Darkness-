@@ -6,8 +6,8 @@
   "name":"obj_wall_dead_star_4",
   "overriddenProperties":[],
   "parent":{
-    "name":"Object_invisible_walls",
-    "path":"folders/Object/Object_invisible_walls.yy",
+    "name":"Object_wall_dead_star",
+    "path":"folders/Object/Object_invisible_walls/Object_wall_dead_star.yy",
   },
   "parentObjectId":null,
   "persistent":false,

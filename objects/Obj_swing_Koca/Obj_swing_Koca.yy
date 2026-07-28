@@ -14,8 +14,8 @@
   "name":"Obj_swing_Koca",
   "overriddenProperties":[],
   "parent":{
-    "name":"Object",
-    "path":"folders/Object.yy",
+    "name":"Object_attack",
+    "path":"folders/Object/Object_attack.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -12,12 +12,31 @@ obj_Kilan.hp_max = ini_read_real("Health_max", "hp_max",0)
 
 obj_Kilan.buff_health1 = ini_read_string("Buff_health1", "buff_health1", 0) //Загружаем не убран ли бафф.
 obj_Kilan.buff_health2 = ini_read_string("Buff_health2", "buff_health2", 0)
+obj_Kilan.buff_health2_1 = ini_read_string("Buff_health2_1", "buff_health2_",0)
 
 
 global.boss_dead_check = ini_read_real("Global.boss_dead_check", "global.boss_dead_check",0) //Загружаем жиа ли босс.
 
 
 obj_Kilan.Kosa_Kilan = ini_read_string("Kosa_Kilan", "kosa_Kilan",0)
+
+
+
+
+
+
+
+global.projectile_Kilan_controller = ini_read_real("Projectile_Kilan_controller", "projectile_Kilan_controller", 0) //Загружаем есть ли инвенатарьб позиции шаров.
+global.projectile_Kilan_controller_2 = ini_read_real("P", "p", 0)
+
+
+obj_Kilan.controller_inventory =ini_read_string("u", "p", 0)
+obj_Kilan.shadow_projectile_Kilan =ini_read_string("P", "u", 0)
+
+
+
+
+
 
 
 

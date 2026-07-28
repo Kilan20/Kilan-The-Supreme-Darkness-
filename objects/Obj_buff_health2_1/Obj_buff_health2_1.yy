@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_wall_dead_star",
+  "%Name":"Obj_buff_health2_1",
   "eventList":[],
   "managed":true,
-  "name":"obj_wall_dead_star",
+  "name":"Obj_buff_health2_1",
   "overriddenProperties":[],
   "parent":{
-    "name":"Object_wall_dead_star",
-    "path":"folders/Object/Object_invisible_walls/Object_wall_dead_star.yy",
+    "name":"Object_buff",
+    "path":"folders/Object/Object_pickup_items/Object_buff.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,9 +28,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite_wall_dead_star",
-    "path":"sprites/Sprite_wall_dead_star/Sprite_wall_dead_star.yy",
+    "name":"Spr_buff_health2",
+    "path":"sprites/Spr_buff_health2/Spr_buff_health2.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }

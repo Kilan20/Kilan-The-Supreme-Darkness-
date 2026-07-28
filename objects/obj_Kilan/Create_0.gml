@@ -6,7 +6,7 @@ world = layer_tilemap_get_id("Ground")
 
 Kosa_Kilan_Controller = true
 
-
+mana_heel = 1//Сколько отхилится мана.
 
 
 
@@ -24,6 +24,7 @@ controller_inventory = false //Контролирует инвентарь.
 
 buff_health1 = true
 buff_health2 = true
+buff_health2_1 = true
 
 
 boss_dead_check = false
@@ -34,6 +35,7 @@ global.boss_dead_check = false
 
 
 arrow_controller = false //Контроль стрелки.
+arrow_controller_2 = false //Контроль второй стрелки.
 
 
 
@@ -55,7 +57,9 @@ rastoan = 20; // Растояние между ячейками.
 	
 	
 	
-	
+
+
+
 	
 	
 	

@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_wall_dead_star",
+  "%Name":"Obj_cave_ladder_1",
   "eventList":[],
   "managed":true,
-  "name":"obj_wall_dead_star",
+  "name":"Obj_cave_ladder_1",
   "overriddenProperties":[],
   "parent":{
-    "name":"Object_wall_dead_star",
-    "path":"folders/Object/Object_invisible_walls/Object_wall_dead_star.yy",
+    "name":"Obj_cave_ladder",
+    "path":"folders/Object/Object_areas/Object_ladder/Obj_cave_ladder.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,9 +28,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite_wall_dead_star",
-    "path":"sprites/Sprite_wall_dead_star/Sprite_wall_dead_star.yy",
+    "name":"Sprite_cave_ladder_1",
+    "path":"sprites/Sprite_cave_ladder_1/Sprite_cave_ladder_1.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }

@@ -1,13 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_wall_dead_star",
-  "eventList":[],
+  "%Name":"obj_Spikes_4",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_wall_dead_star",
+  "name":"obj_Spikes_4",
   "overriddenProperties":[],
   "parent":{
-    "name":"Object_wall_dead_star",
-    "path":"folders/Object/Object_invisible_walls/Object_wall_dead_star.yy",
+    "name":"Object_traps",
+    "path":"folders/Object/Object_areas/Object_traps.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,9 +30,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite_wall_dead_star",
-    "path":"sprites/Sprite_wall_dead_star/Sprite_wall_dead_star.yy",
+    "name":"Sprite_Spikes_1",
+    "path":"sprites/Sprite_Spikes_1/Sprite_Spikes_1.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }

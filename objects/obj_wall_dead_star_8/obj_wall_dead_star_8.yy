@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_wall_dead_star",
+  "%Name":"obj_wall_dead_star_8",
   "eventList":[],
   "managed":true,
-  "name":"obj_wall_dead_star",
+  "name":"obj_wall_dead_star_8",
   "overriddenProperties":[],
   "parent":{
     "name":"Object_wall_dead_star",
