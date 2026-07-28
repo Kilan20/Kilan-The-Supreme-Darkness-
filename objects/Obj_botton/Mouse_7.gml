@@ -16,6 +16,7 @@ switch (botton_id)
 		global.projectile_Kilan_controller = true
 		global.projectile_Kilan_controller_2 = false
 		instance_activate_object(Obj_botton_B)
+		instance_deactivate_object(Obj_shadow_projectile_Kilan_inventory_B)
 	break;
 	
 	
