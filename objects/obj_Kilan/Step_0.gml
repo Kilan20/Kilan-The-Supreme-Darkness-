@@ -75,6 +75,18 @@ if mana >= 10{
 	
 	
 	
+	
+	
+	
+	
+	
+	mana_cooldown += 0.3
+	if mana_cooldown >= 5{
+		mana_cooldown = 5;
+	}
+	
+	
+	
 	attack_cooldown += 0.1
 	if attack_cooldown >= 10{
 		attack_cooldown = 10} //Только.
@@ -93,6 +105,13 @@ if mana >= 10{
 	instance_destroy(Obj_swing_Koca)
 	attack_cooldown2 -=11 //Тут волна атаки убирается.
 }
+
+
+
+
+
+
+
 
 
 

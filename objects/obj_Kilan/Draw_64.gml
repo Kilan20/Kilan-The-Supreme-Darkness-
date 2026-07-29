@@ -54,6 +54,26 @@ draw_sprite_part(Spr_mana, 0,0,0, 20, 160, 635,5)
 draw_sprite_part(Spr_mana, 0,0,0, 20, 180, 635,5)
 }else if (mana == 10){
 draw_sprite_part(Spr_mana, 0,0,0, 20, 200, 635,5)
+}else if (mana == 11){
+draw_sprite_part(Spr_mana_2, 0,0,0, 20, 20, 635,5)
+}else if (mana == 12){
+draw_sprite_part(Spr_mana_2, 0,0,0, 20, 40, 635,5)
+}else if (mana == 13){
+draw_sprite_part(Spr_mana_2, 0,0,0, 20, 60, 635,5)
+}else if (mana == 14){
+draw_sprite_part(Spr_mana_2, 0,0,0, 20, 80, 635,5)
+}else if (mana == 15){
+draw_sprite_part(Spr_mana_2, 0,0,0, 20, 100, 635,5)
+}else if (mana == 16){
+draw_sprite_part(Spr_mana_2, 0,0,0, 20, 120, 635,5)
+}else if (mana == 17){
+draw_sprite_part(Spr_mana_2, 0,0,0, 20, 140, 635,5)
+}else if (mana == 18){
+draw_sprite_part(Spr_mana_2, 0,0,0, 20, 160, 635,5)
+}else if (mana == 19){
+draw_sprite_part(Spr_mana_2, 0,0,0, 20, 180, 635,5)
+}else if (mana == 20){
+draw_sprite_part(Spr_mana_2, 0,0,0, 20, 200, 635,5)
 }
 }
 
@@ -73,6 +93,7 @@ draw_text(70,70,buff_health2_1)
 draw_text(39,69,global.boss_dead_check)
 draw_text(60,69,global.projectile_Kilan_controller)
 draw_text(100,69,global.projectile_Kilan_controller_2)
+draw_text(100,100, mana_cooldown)
 //draw_text(100,100,gravity_speed)
 
 
