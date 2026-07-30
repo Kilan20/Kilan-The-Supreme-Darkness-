@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Script_cave_spider_AI",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Script_cave_spider_AI",
+  "parent":{
+    "name":"Script",
+    "path":"folders/Script.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
