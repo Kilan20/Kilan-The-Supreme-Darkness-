@@ -95,7 +95,7 @@ draw_text(30,36,attack_cooldown)
 //draw_text(100,69,global.projectile_Kilan_controller_2)
 draw_text(100,100, mana_cooldown)
 draw_text(200, 59, hdir)
-//draw_text(100,100,gravity_speed)
+//draw_text(100,120,gravity_speed)
 
 
 //draw_text(90,90,tici)
@@ -180,6 +180,9 @@ if (instance_exists(Obj_botton)){
 
 if instance_exists(Obj_cave_spider){
 	draw_text(100,50, Obj_cave_spider.state_2)
+	draw_text(100,70, Obj_cave_spider.move_y)
+	draw_text(100, 60,Obj_cave_spider.image_angle)
+	draw_text(100, 80, Obj_cave_spider.image_xscale)
 }
 
 

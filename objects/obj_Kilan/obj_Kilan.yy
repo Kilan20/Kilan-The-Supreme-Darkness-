@@ -50,6 +50,7 @@
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"Obj_cave_platform_7","path":"objects/Obj_cave_platform_7/Obj_cave_platform_7.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"Obj_circular_saw","path":"objects/Obj_circular_saw/Obj_circular_saw.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_Spikes_5","path":"objects/obj_Spikes_5/obj_Spikes_5.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"Obj_cave_spider","path":"objects/Obj_cave_spider/Obj_cave_spider.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_Kilan",
