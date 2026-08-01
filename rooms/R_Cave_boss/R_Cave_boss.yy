@@ -138,6 +138,7 @@
     {"name":"inst_5FEF9026","path":"rooms/R_Cave_boss/R_Cave_boss.yy",},
     {"name":"inst_1F281917","path":"rooms/R_Cave_boss/R_Cave_boss.yy",},
     {"name":"inst_3532646F","path":"rooms/R_Cave_boss/R_Cave_boss.yy",},
+    {"name":"inst_F1C09E7","path":"rooms/R_Cave_boss/R_Cave_boss.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -304,6 +305,7 @@
         {"$GMRInstance":"v4","%Name":"inst_5FEF9026","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5FEF9026","objectId":{"name":"Obj_cave_platform_7","path":"objects/Obj_cave_platform_7/Obj_cave_platform_7.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.625,"scaleY":1.0,"x":277.875,"y":514.0,},
         {"$GMRInstance":"v4","%Name":"inst_1F281917","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1F281917","objectId":{"name":"obj_wall_dead_star_7","path":"objects/obj_wall_dead_star_7/obj_wall_dead_star_7.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.625,"scaleY":2.614965,"x":219.72153,"y":333.14224,},
         {"$GMRInstance":"v4","%Name":"inst_3532646F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3532646F","objectId":{"name":"Obj_cave_spider","path":"objects/Obj_cave_spider/Obj_cave_spider.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":-3.0805936,"scaleX":1.0,"scaleY":1.0,"x":73.0,"y":562.0,},
+        {"$GMRInstance":"v4","%Name":"inst_F1C09E7","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_F1C09E7","objectId":{"name":"obj_wall_cave_spider","path":"objects/obj_wall_cave_spider/obj_wall_cave_spider.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.40625,"scaleY":1.78125,"x":0.0,"y":487.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4279176977,"depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],

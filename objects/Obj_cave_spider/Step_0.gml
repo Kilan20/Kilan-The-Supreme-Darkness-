@@ -40,7 +40,13 @@ switch (state_2){
 	{
 		mp_potential_step_object(obj_Kilan.x,y,
 			move_speed_cave_spider_2, obj_wall_dead_star_5)
-					
+				
+				
+				
+				
+				if place_meeting(x,y,Obj_swing_Koca){
+					state_2 = CAVE_CAVE_SPIDER_AI.Run
+				}
 	}
 					
 	break
@@ -50,7 +56,7 @@ switch (state_2){
 	
 	
 	case CAVE_CAVE_SPIDER_AI.Fasa_3:
-		
+		//Пуляется паутиной.
 	break
 	
 	
@@ -58,7 +64,7 @@ switch (state_2){
 	
 	
 	case CAVE_CAVE_SPIDER_AI.Run:
-	
+		x-=0.4
 	break
 	
 	
