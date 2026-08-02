@@ -1,0 +1,1 @@
+damage_magic = 80;

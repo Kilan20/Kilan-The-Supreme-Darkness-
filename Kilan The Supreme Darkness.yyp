@@ -38,8 +38,8 @@
     {"$GMFolder":"","%Name":"Object_attack","folderPath":"folders/Object/Object_inventory_items/Object_attack.yy","name":"Object_attack","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Object_invisible_walls","folderPath":"folders/Object/Object_invisible_walls.yy","name":"Object_invisible_walls","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Object_wall_cave_ghost","folderPath":"folders/Object/Object_invisible_walls/Object_wall_cave_ghost.yy","name":"Object_wall_cave_ghost","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Object_wall_dead_star","folderPath":"folders/Object/Object_invisible_walls/Object_wall_dead_star.yy","name":"Object_wall_dead_star","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Object_wall_cave_spider","folderPath":"folders/Object/Object_invisible_walls/Object_wall_cave_spider.yy","name":"Object_wall_cave_spider","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Object_wall_dead_star","folderPath":"folders/Object/Object_invisible_walls/Object_wall_dead_star.yy","name":"Object_wall_dead_star","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Object_pickup_items","folderPath":"folders/Object/Object_pickup_items.yy","name":"Object_pickup_items","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Object_buff","folderPath":"folders/Object/Object_pickup_items/Object_buff.yy","name":"Object_buff","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Room","folderPath":"folders/Room.yy","name":"Room","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -76,6 +76,7 @@
   "resources":[
     {"id":{"name":"O_X","path":"objects/O_X/O_X.yy",},},
     {"id":{"name":"obj_abyss","path":"objects/obj_abyss/obj_abyss.yy",},},
+    {"id":{"name":"Obj_attack_enemy_boss_controll","path":"objects/Obj_attack_enemy_boss_controll/Obj_attack_enemy_boss_controll.yy",},},
     {"id":{"name":"Obj_back_arrow_1","path":"objects/Obj_back_arrow_1/Obj_back_arrow_1.yy",},},
     {"id":{"name":"Obj_back_arrow_2","path":"objects/Obj_back_arrow_2/Obj_back_arrow_2.yy",},},
     {"id":{"name":"Obj_back_arrow","path":"objects/Obj_back_arrow/Obj_back_arrow.yy",},},

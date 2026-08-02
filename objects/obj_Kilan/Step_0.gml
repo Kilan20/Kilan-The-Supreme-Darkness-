@@ -19,7 +19,7 @@ jump = keyboard_check(vk_space)
 
 hdir = right - left
 
-if hdir != 0{
+if hdir != 0 and !place_meeting(x,y,Obj_cave_spider_projectile_wed){
 	if !place_meeting(x + hdir*1,y-1,world){
 		x += hdir*1
 	}
@@ -115,7 +115,7 @@ if mana >= 10{
 
 
 
-
+{//Активация деактивация баффов.
 
 if Kosa_Kilan = true{
 	instance_deactivate_object(obj_Kosa_Kilan)
@@ -130,7 +130,7 @@ if buff_health2 = false{
 if buff_health2_1 = false{
 	instance_deactivate_object(Obj_buff_health2_1)
 }
-
+}
 
 
 
@@ -162,13 +162,16 @@ if global.boss_dead_check = true {
 		arrow_controller = true // Контролирует стрелку.
 	}
 }
+if global.boss_dead_cave_spider = true{
+	instance_destroy(Obj_cave_spider)
+}
 
 
 
-
-
+{ //Активирует ворота босса первога. Ворота A.
 if shadow_projectile_Kilan = true and global.projectile_Kilan_controller = true{
 	instance_activate_object(Obj_shadow_projectile_Kilan_inventory_A)
+}
 }
 
 

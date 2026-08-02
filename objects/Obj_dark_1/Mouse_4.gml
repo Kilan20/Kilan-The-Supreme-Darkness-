@@ -23,6 +23,7 @@ ini_write_string("Buff_health2_1", "buff_health2_",obj_Kilan.buff_health2_1)
 
 
 ini_write_real("Global.boss_dead_check", "global.boss_dead_check", global.boss_dead_check) //Сохраняем жив ли босс.
+ini_write_real("Global.boss_dead_cave_spider", "global.boss_dead_cave_spider", global.boss_dead_cave_spider) //Сохраняем жив ли паук пещер.
 
 
 

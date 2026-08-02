@@ -16,6 +16,7 @@ obj_Kilan.buff_health2_1 = ini_read_string("Buff_health2_1", "buff_health2_",0)
 
 
 global.boss_dead_check = ini_read_real("Global.boss_dead_check", "global.boss_dead_check",0) //Загружаем жиа ли босс.
+global.boss_dead_cave_spider = ini_read_real("Global.boss_dead_cave_spider", "global.boss_dead_cave_spider",0) //Загружаем жив ли паук пещер.
 
 
 obj_Kilan.Kosa_Kilan = ini_read_string("Kosa_Kilan", "kosa_Kilan",0)

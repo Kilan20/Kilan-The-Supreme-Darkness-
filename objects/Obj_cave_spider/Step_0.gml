@@ -56,6 +56,15 @@ switch (state_2){
 	
 	
 	case CAVE_CAVE_SPIDER_AI.Fasa_3:
+	
+	if place_meeting(x,y,Obj_swing_Koca){
+					state_2 = CAVE_CAVE_SPIDER_AI.Run_2
+	}
+		
+		x-=0.4
+	
+	
+	
 		//Пуляется паутиной.
 	break
 	
@@ -64,6 +73,13 @@ switch (state_2){
 	
 	
 	case CAVE_CAVE_SPIDER_AI.Run:
+		
+	
+	
+	
+	if place_meeting(x,y,Obj_swing_Koca){
+					state_2 = CAVE_CAVE_SPIDER_AI.Fasa_3
+				}
 		x-=0.4
 	break
 	
@@ -72,7 +88,7 @@ switch (state_2){
 	
 	
 	case CAVE_CAVE_SPIDER_AI.Run_2:
-	
+		state_2 =  CAVE_CAVE_SPIDER_AI.Fasa_1
 	break
 	
 	
@@ -164,6 +180,16 @@ if image_angle = 180{
 	image_xscale = 1
 		}
 	}
+
+
+
+
+
+if hp_cave_spider <=0{
+	instance_destroy(Obj_cave_spider)
+	global.boss_dead_cave_spider = true
+	
+}
 
 
 

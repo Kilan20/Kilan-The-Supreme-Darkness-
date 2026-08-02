@@ -1,7 +1,10 @@
 {
   "$GMObject":"",
   "%Name":"Obj_cave_spider_projectile_wed",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_Kilan","path":"objects/obj_Kilan/obj_Kilan.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"Obj_cave_spider_projectile_wed",
   "overriddenProperties":[],

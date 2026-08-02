@@ -13,3 +13,11 @@ move_speed_cave_spider_2 = 0.2
 
 
 damage_cave_spider = 2;
+
+
+alarm[0] = 60*2
+
+
+
+
+hp_cave_spider = 100;
