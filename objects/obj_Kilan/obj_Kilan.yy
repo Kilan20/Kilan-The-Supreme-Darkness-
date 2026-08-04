@@ -53,6 +53,7 @@
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"Obj_cave_spider","path":"objects/Obj_cave_spider/Obj_cave_spider.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"Obj_cave_spider_projectile_wed","path":"objects/Obj_cave_spider_projectile_wed/Obj_cave_spider_projectile_wed.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"Obj_cave_platform_activate","path":"objects/Obj_cave_platform_activate/Obj_cave_platform_activate.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"Obj_baff_mana_plis_plic","path":"objects/Obj_baff_mana_plis_plic/Obj_baff_mana_plis_plic.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_Kilan",

@@ -7,6 +7,17 @@ obj_Kilan.y = ini_read_real("position","y",0);
 
 obj_Kilan.hp = ini_read_real("Health", "hp",0)
 obj_Kilan.hp_max = ini_read_real("Health_max", "hp_max",0)
+obj_Kilan.mana = ini_read_real("Mana", "mana", 0)
+obj_Kilan.max_mana = ini_read_real("Max_mana","max_mana", 0)
+
+
+
+
+
+
+
+
+
 
 
 

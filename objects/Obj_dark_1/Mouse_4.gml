@@ -13,6 +13,14 @@ ini_write_string("Room", "room", room_get_name(room));
 
 ini_write_string("Health", "hp", obj_Kilan.hp)
 ini_write_string("Health_max", "hp_max", obj_Kilan.hp_max)
+ini_write_string("Mana", "mana", obj_Kilan.mana)
+ini_write_string("Max_mana", "max_mana", obj_Kilan.max_mana)
+
+
+
+
+
+
 
 
 
