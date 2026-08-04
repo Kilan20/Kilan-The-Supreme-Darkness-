@@ -1,0 +1,1 @@
+move_speed_baff_mana_plic_plic = 0.1

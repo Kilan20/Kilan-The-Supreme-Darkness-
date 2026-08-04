@@ -1,0 +1,1 @@
+image_angle_cave_platform_2 = image_angle

@@ -163,6 +163,7 @@ if global.boss_dead_check = true {
 	}
 }
 if global.boss_dead_cave_spider = true{
+	instance_activate_object(Obj_cave_platform_activate)
 	instance_destroy(Obj_cave_spider)
 }
 

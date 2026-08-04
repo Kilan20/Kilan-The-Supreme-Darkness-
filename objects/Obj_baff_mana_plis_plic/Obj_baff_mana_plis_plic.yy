@@ -1,9 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_baff_mana_plis_2",
-  "eventList":[],
+  "%Name":"Obj_baff_mana_plis_plic",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"Obj_baff_mana_plis_2",
+  "name":"Obj_baff_mana_plis_plic",
   "overriddenProperties":[],
   "parent":{
     "name":"Object_buff",
@@ -28,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Spr_baff_mana_plis",
-    "path":"sprites/Spr_baff_mana_plis/Spr_baff_mana_plis.yy",
+    "name":"Spr_baff_mana_plis_plic",
+    "path":"sprites/Spr_baff_mana_plis_plic/Spr_baff_mana_plis_plic.yy",
   },
   "spriteMaskId":null,
   "visible":true,
