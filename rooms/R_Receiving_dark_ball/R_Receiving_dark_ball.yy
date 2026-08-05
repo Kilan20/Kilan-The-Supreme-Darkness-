@@ -45,8 +45,8 @@
   ],
   "name":"R_Receiving_dark_ball",
   "parent":{
-    "name":"Room",
-    "path":"folders/Room.yy",
+    "name":"R_Cave",
+    "path":"folders/Room/R_Cave.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

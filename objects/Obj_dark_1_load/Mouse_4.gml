@@ -24,6 +24,13 @@ obj_Kilan.max_mana = ini_read_real("Max_mana","max_mana", 0)
 obj_Kilan.buff_health1 = ini_read_string("Buff_health1", "buff_health1", 0) //Загружаем не убран ли бафф.
 obj_Kilan.buff_health2 = ini_read_string("Buff_health2", "buff_health2", 0)
 obj_Kilan.buff_health2_1 = ini_read_string("Buff_health2_1", "buff_health2_",0)
+obj_Kilan.buff_mana_plis_plic = ini_read_string("Buff_mana_plis_plic", "buff_mana_plis_plic",0)
+obj_Kilan.buff_health2_2 = ini_read_string("Buff_health2_2", "buff_health2_2",0)
+obj_Kilan.buff_mana_plic_2 = ini_read_string("Buff_mana_plis_2", "buff_mana_plis_2",0)
+
+
+
+
 
 
 global.boss_dead_check = ini_read_real("Global.boss_dead_check", "global.boss_dead_check",0) //Загружаем жиа ли босс.

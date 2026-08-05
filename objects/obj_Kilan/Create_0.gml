@@ -25,6 +25,9 @@ controller_inventory = false //Контролирует инвентарь.
 buff_health1 = true
 buff_health2 = true
 buff_health2_1 = true
+buff_mana_plis_plic = true
+buff_health2_2 = true
+buff_mana_plic_2 = true
 
 
 boss_dead_check = false

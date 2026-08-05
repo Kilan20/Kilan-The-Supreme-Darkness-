@@ -26,6 +26,16 @@ if (hp == 1){
 	draw_sprite_part(Spr_Health_2, 0, 0, 0, 56,23,20,26)
 } else if (hp == 10){
 	draw_sprite_part(Spr_Health_2, 0, 0, 0, 80,23,20,26)
+} else if (hp == 11){
+	draw_sprite_part(Spr_Health_3, 0, 0, 0, 14,23,20,26)
+} else if (hp == 12){
+	draw_sprite_part(Spr_Health_3, 0, 0, 0, 28,23,20,26)
+} else if (hp == 13){
+	draw_sprite_part(Spr_Health_3, 0, 0, 0, 42,23,20,26)
+} else if (hp == 14){
+	draw_sprite_part(Spr_Health_3, 0, 0, 0, 56,23,20,26)
+} else if (hp == 15){
+	draw_sprite_part(Spr_Health_3, 0, 0, 0, 80,23,20,26)
 }
 }
 

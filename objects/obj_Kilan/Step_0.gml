@@ -58,7 +58,7 @@ if mana_regen >= 10{
 	mana+=mana_heel
 	mana_regen -=10}
 
-if mana >= 10{
+if mana >= max_mana{
 	mana_regen = false}
 }
 	
@@ -129,6 +129,15 @@ if buff_health2 = false{
 }
 if buff_health2_1 = false{
 	instance_deactivate_object(Obj_buff_health2_1)
+}
+if buff_mana_plis_plic = false{
+	instance_deactivate_object(Obj_baff_mana_plis_plic)
+}
+if buff_health2_2 = false{
+	instance_deactivate_object(Obj_buff_health3)
+}
+if buff_mana_plic_2 = false{
+	instance_deactivate_object(Obj_baff_mana_plis_2)
 }
 }
 

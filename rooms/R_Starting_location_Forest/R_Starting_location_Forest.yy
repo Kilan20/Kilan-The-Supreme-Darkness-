@@ -98,8 +98,8 @@
   ],
   "name":"R_Starting_location_Forest",
   "parent":{
-    "name":"Room",
-    "path":"folders/Room.yy",
+    "name":"R-Starting_location_Forest",
+    "path":"folders/Room/R-Starting_location_Forest.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

@@ -1,0 +1,1 @@
+vision_distance_spikes = 40

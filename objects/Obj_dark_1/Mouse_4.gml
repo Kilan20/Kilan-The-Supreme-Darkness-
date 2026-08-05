@@ -27,6 +27,9 @@ ini_write_string("Max_mana", "max_mana", obj_Kilan.max_mana)
 ini_write_string("Buff_health1", "buff_health1", obj_Kilan.buff_health1) //Сохраняем не убран ли бафф.
 ini_write_string("Buff_health2", "buff_health2", obj_Kilan.buff_health2)
 ini_write_string("Buff_health2_1", "buff_health2_",obj_Kilan.buff_health2_1)
+ini_write_string("Buff_mana_plis_plic", "buff_mana_plis_plic",obj_Kilan.buff_mana_plis_plic)
+ini_write_string("Buff_health2_2", "buff_health2_2",obj_Kilan.buff_health2_2)
+ini_write_string("Buff_mana_plis_2", "buff_mana_plis_2",obj_Kilan.buff_mana_plic_2)
 
 
 

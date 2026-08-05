@@ -205,8 +205,8 @@
   ],
   "name":"R_Cave",
   "parent":{
-    "name":"Room",
-    "path":"folders/Room.yy",
+    "name":"R_Cave",
+    "path":"folders/Room/R_Cave.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

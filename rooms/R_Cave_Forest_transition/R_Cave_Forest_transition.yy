@@ -7,20 +7,33 @@
   "inheritLayers":false,
   "instanceCreationOrder":[
     {"name":"inst_13C50834","path":"rooms/R_Cave_Forest_transition/R_Cave_Forest_transition.yy",},
+    {"name":"inst_2BC481F1","path":"rooms/R_Cave_Forest_transition/R_Cave_Forest_transition.yy",},
+    {"name":"inst_17D5FFE7","path":"rooms/R_Cave_Forest_transition/R_Cave_Forest_transition.yy",},
+    {"name":"inst_3439310F","path":"rooms/R_Cave_Forest_transition/R_Cave_Forest_transition.yy",},
+    {"name":"inst_609B7C7A","path":"rooms/R_Cave_Forest_transition/R_Cave_Forest_transition.yy",},
   ],
   "isDnd":false,
   "layers":[
     {"$GMRTileLayer":"","%Name":"Ground","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Ground","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":15,"SerialiseWidth":24,"TileCompressedData":[
-          -189,-2147483648,3,2,3,4,-23,-2147483648,1,36,-23,-2147483648,1,36,-23,-2147483648,1,36,-23,-2147483648,
-          1,36,-23,-2147483648,1,36,-23,-2147483648,1,36,-23,-2147483648,1,36,
+          1,11,-14,-2147483648,1,13,-8,36,1,11,-14,-2147483648,10,25,26,27,28,26,27,28,27,28,11,-20,-2147483648,
+          4,52,-2147483648,-2147483648,11,-23,-2147483648,1,11,-23,-2147483648,1,11,-23,-2147483648,1,11,-23,-2147483648,
+          1,45,-3,9,1,20,-4,-2147483648,1,21,-4,9,4,57,58,3,4,-3,5,3,2,3,4,-4,23,1,32,-4,-2147483648,1,33,-4,23,
+          2,69,70,-8,36,-4,23,1,32,-4,-2147483648,1,33,-4,23,2,69,70,-8,36,-4,23,1,32,-4,-2147483648,1,33,-4,23,
+          2,69,70,-8,36,-4,23,1,32,-4,-2147483648,1,33,-4,23,2,69,70,-8,36,-4,23,1,32,-4,-2147483648,1,33,-4,23,
+          2,69,70,-8,36,-4,23,1,32,-4,-2147483648,1,33,-4,23,2,69,70,-8,36,-4,23,1,32,-4,-2147483648,1,33,-4,23,
+          2,69,70,-8,36,
         ],"TileDataFormat":1,},"tilesetId":{"name":"Cave_Ground","path":"tilesets/Cave_Ground/Cave_Ground.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_13C50834","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_13C50834","objectId":{"name":"Obj_roomTransitions","path":"objects/Obj_roomTransitions/Obj_roomTransitions.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.0625,"scaleY":1.0,"x":476.0,"y":76.0,},
+        {"$GMRInstance":"v4","%Name":"inst_2BC481F1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2BC481F1","objectId":{"name":"obj_Spikes_6","path":"objects/obj_Spikes_6/obj_Spikes_6.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":179.24515,"scaleX":1.0,"scaleY":1.0,"x":316.0,"y":60.0,},
+        {"$GMRInstance":"v4","%Name":"inst_17D5FFE7","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_17D5FFE7","objectId":{"name":"Obj_baff_mana_plis_2","path":"objects/Obj_baff_mana_plis_2/Obj_baff_mana_plis_2.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":55.66243,"scaleX":1.0,"scaleY":1.0,"x":212.0,"y":136.52644,},
+        {"$GMRInstance":"v4","%Name":"inst_3439310F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3439310F","objectId":{"name":"Obj_buff_health3","path":"objects/Obj_buff_health3/Obj_buff_health3.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":56.66305,"scaleX":1.0,"scaleY":1.0,"x":249.0,"y":138.0,},
+        {"$GMRInstance":"v4","%Name":"inst_609B7C7A","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_609B7C7A","objectId":{"name":"Obj_roomTransitions","path":"objects/Obj_roomTransitions/Obj_roomTransitions.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.25,"scaleY":0.09375,"x":100.0,"y":294.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Sprite","assets":[
         {"$GMRSpriteGraphic":"v1","%Name":"graphic_2DBA7C38","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_2DBA7C38","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":0.6666667,"scaleY":0.62857145,"spriteId":{"name":"Sprite_Trainig_completed","path":"sprites/Sprite_Trainig_completed/Sprite_Trainig_completed.yy",},"x":357.6667,"y":112.314285,},
       ],"depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Sprite","properties":[],"resourceType":"GMRAssetLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
-    {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
+    {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4279176977,"depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
   "name":"R_Cave_Forest_transition",
   "parent":{
