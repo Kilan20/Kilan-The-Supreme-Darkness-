@@ -1,3 +1,14 @@
+if global.dead_hp_Kilan_load = true{
+instance_create_depth(x,y,0,obj_Kilan)
+}
+
+global.dead_hp_Kilan = false
+global.dead_hp_Kilan_load = false
+
+
+
+
+
 ini_open("Dark_save_1.ini");
 
 

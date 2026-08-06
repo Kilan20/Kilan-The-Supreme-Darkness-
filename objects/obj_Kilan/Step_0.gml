@@ -39,17 +39,26 @@ if hdir != 0 and !place_meeting(x,y,Obj_cave_spider_projectile_wed){
 	
 	y+=gravity_speed
 	
-	
+{	//Смерти и контроль хп если его больше максимального, так-же контроль флажков тоесть переходов смерти в экраны смерти.
 	
 	if hp <= 0{
-		instance_destroy(obj_Kilan)}
+		instance_deactivate_object(obj_Kilan)
+		  global.dead_hp_Kilan = true}
 		
 		
 		else if hp > hp_max{
 			hp = 1}
 			
 			if mana <= 0{
-				instance_destroy(obj_Kilan)}
+				instance_deactivate_object(obj_Kilan)}
+				
+				
+				
+				
+
+
+
+} 
 				
 {	//Регенерация и контроль маны.		
 mana_regen += 0.1
@@ -62,7 +71,7 @@ if mana >= max_mana{
 	mana_regen = false}
 }
 	
-{	//Восстановление и контроль атаки.
+{	//Управление поворотом спрайта.
 	
 	if (hdir != 0){
 		if (hdir > 0){
@@ -72,9 +81,6 @@ if mana >= max_mana{
 		}
 	}
 }
-	
-	
-	
 	
 	
 	

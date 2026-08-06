@@ -9,17 +9,17 @@ if esn = true
 }
 
 
-if paused == false{
+if paused == false {
 	window_set_cursor(cr_none);
 	layer_set_visible(layer_name, false)
 } 
 
-if paused == true or room == R_Menu{
+if paused == true or room == R_Menu          or global.dead_hp_Kilan = true  or global.dead_hp_Kilan_load = true{
 	window_set_cursor(cr_default);
 }
 
 
-if room == R_Menu{
+if room == R_Menu                           or global.dead_hp_Kilan = true or global.dead_hp_Kilan_load = true {
 	paused = false
 	esn = false
 	layer_set_visible("SaveLayer", false)
