@@ -2,9 +2,10 @@ global.dead_mana_Kilan = false
 global.dead_hp_Kilan = false
 
 global.dead_hp_Kilan_load = false //Контроль загрузки.
+global.dead_hp_Kilan_visible = false //Контроль появление объекта.
 
 
-
+global.dead_mana_Kilan_visible = false
 
 
 

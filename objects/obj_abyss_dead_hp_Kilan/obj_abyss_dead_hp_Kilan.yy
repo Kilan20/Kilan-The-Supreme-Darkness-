@@ -8,8 +8,8 @@
   "name":"obj_abyss_dead_hp_Kilan",
   "overriddenProperties":[],
   "parent":{
-    "name":"Object_botton_dead_Kilan",
-    "path":"folders/Object/Object_botton/Object_botton_dead_Kilan.yy",
+    "name":"Object_dead_Kilam_hp",
+    "path":"folders/Object/Object_botton/Object_botton_dead_Kilan/Object_dead_Kilam_hp.yy",
   },
   "parentObjectId":null,
   "persistent":false,

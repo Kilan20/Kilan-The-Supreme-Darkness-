@@ -43,14 +43,17 @@ if hdir != 0 and !place_meeting(x,y,Obj_cave_spider_projectile_wed){
 	
 	if hp <= 0{
 		instance_deactivate_object(obj_Kilan)
-		  global.dead_hp_Kilan = true}
+		  global.dead_hp_Kilan = true
+		  global.dead_hp_Kilan_visible = true}
 		
 		
 		else if hp > hp_max{
 			hp = 1}
 			
 			if mana <= 0{
-				instance_deactivate_object(obj_Kilan)}
+				instance_deactivate_object(obj_Kilan)
+				global.dead_mana_Kilan_visible = true
+				global.dead_hp_Kilan = true}
 				
 				
 				

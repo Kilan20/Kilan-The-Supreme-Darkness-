@@ -9,3 +9,29 @@ if room = R_Menu{
 if global.dead_hp_Kilan_load = false{
 	layer_set_visible("Dead_Hp_Kilan_Load", false)
 }
+
+
+
+
+
+if instance_exists(Obj_dead_hp_health){
+				if global.dead_hp_Kilan_visible = false{
+				Obj_dead_hp_health.visible = false
+				}
+
+				if global.dead_hp_Kilan_visible = true{
+			Obj_dead_hp_health.visible = true
+		}
+}
+if instance_exists(Obj_dead_mana_Kilan){
+	if global.dead_mana_Kilan_visible = false{
+		Obj_dead_mana_Kilan.visible = false
+		}
+		
+		if global.dead_mana_Kilan_visible = true{
+			Obj_dead_mana_Kilan.visible = true
+		}
+		
+		
+		
+}
