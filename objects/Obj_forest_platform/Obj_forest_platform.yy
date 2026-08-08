@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_dead_hp_health",
+  "%Name":"Obj_forest_platform",
   "eventList":[],
   "managed":true,
-  "name":"Obj_dead_hp_health",
+  "name":"Obj_forest_platform",
   "overriddenProperties":[],
   "parent":{
-    "name":"Object_dead_hp_mana_Kilan",
-    "path":"folders/Object/Object_dead_hp_mana_Kilan.yy",
+    "name":"Object_platform",
+    "path":"folders/Object/Object_areas/Object_platform.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite_dead_hp_health",
-    "path":"sprites/Sprite_dead_hp_health/Sprite_dead_hp_health.yy",
+    "name":"Sprite_forest_platform",
+    "path":"sprites/Sprite_forest_platform/Sprite_forest_platform.yy",
   },
   "spriteMaskId":null,
   "visible":true,

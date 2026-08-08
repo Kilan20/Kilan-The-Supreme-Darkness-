@@ -3,7 +3,7 @@ if global.dead_hp_Kilan = true{
 	layer_set_visible(layer_name, true);
 }
 
-if room = R_Menu{
+if room = R_Menu or instance_exists(obj_Kilan){
 	layer_set_visible(layer_name, false);
 } 
 if global.dead_hp_Kilan_load = false{
@@ -13,7 +13,7 @@ if global.dead_hp_Kilan_load = false{
 
 
 
-
+{	//Контроль появление объекта звезды, сердечка(визуал).
 if instance_exists(Obj_dead_hp_health){
 				if global.dead_hp_Kilan_visible = false{
 				Obj_dead_hp_health.visible = false
@@ -35,3 +35,20 @@ if instance_exists(Obj_dead_mana_Kilan){
 		
 		
 }
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

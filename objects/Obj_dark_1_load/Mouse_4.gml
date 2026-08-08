@@ -1,7 +1,9 @@
-if global.dead_hp_Kilan_load = true{
-instance_create_depth(x,y,0,obj_Kilan)
+//if global.dead_hp_Kilan_load = true{
+//instance_create_depth(x,y,100,obj_Kilan)
+//}
+if !instance_exists(obj_Kilan){
+	instance_create_depth(x,y,220,obj_Kilan)
 }
-
 
 
 

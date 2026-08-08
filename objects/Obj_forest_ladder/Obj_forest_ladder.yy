@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_dead_hp_health",
+  "%Name":"Obj_forest_ladder",
   "eventList":[],
   "managed":true,
-  "name":"Obj_dead_hp_health",
+  "name":"Obj_forest_ladder",
   "overriddenProperties":[],
   "parent":{
-    "name":"Object_dead_hp_mana_Kilan",
-    "path":"folders/Object/Object_dead_hp_mana_Kilan.yy",
+    "name":"Object_ladder",
+    "path":"folders/Object/Object_areas/Object_ladder.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite_dead_hp_health",
-    "path":"sprites/Sprite_dead_hp_health/Sprite_dead_hp_health.yy",
+    "name":"Sprite_forest_ladder",
+    "path":"sprites/Sprite_forest_ladder/Sprite_forest_ladder.yy",
   },
   "spriteMaskId":null,
   "visible":true,

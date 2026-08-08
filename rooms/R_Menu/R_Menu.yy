@@ -50,6 +50,7 @@
     {"name":"inst_3E697082","path":"roomui/RoomUI/RoomUI.yy",},
     {"name":"inst_1CA35154","path":"roomui/RoomUI/RoomUI.yy",},
     {"name":"inst_30EEFF18","path":"roomui/RoomUI/RoomUI.yy",},
+    {"name":"inst_44D5A54C","path":"rooms/R_Menu/R_Menu.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -61,6 +62,7 @@
         {"$GMRInstance":"v4","%Name":"inst_2212B58D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2212B58D","objectId":{"name":"Obj_take_a_rest","path":"objects/Obj_take_a_rest/Obj_take_a_rest.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":121.0,},
         {"$GMRInstance":"v4","%Name":"inst_26D02E3","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_26D02E3","objectId":{"name":"Obj_attack_enemy_boss_controll","path":"objects/Obj_attack_enemy_boss_controll/Obj_attack_enemy_boss_controll.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":508.0,"y":33.0,},
         {"$GMRInstance":"v4","%Name":"inst_3F7C256","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3F7C256","objectId":{"name":"Obj_dead_controller","path":"objects/Obj_dead_controller/Obj_dead_controller.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":487.0,"y":33.0,},
+        {"$GMRInstance":"v4","%Name":"inst_44D5A54C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_44D5A54C","objectId":{"name":"Obj_version","path":"objects/Obj_version/Obj_version.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":3.9375,"scaleY":3.5015984,"x":467.0,"y":359.97443,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],

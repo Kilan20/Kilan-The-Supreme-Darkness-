@@ -1,13 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_dead_hp_health",
-  "eventList":[],
+  "%Name":"Obj_version",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"Obj_dead_hp_health",
+  "name":"Obj_version",
   "overriddenProperties":[],
   "parent":{
-    "name":"Object_dead_hp_mana_Kilan",
-    "path":"folders/Object/Object_dead_hp_mana_Kilan.yy",
+    "name":"Object",
+    "path":"folders/Object.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -27,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"Sprite_dead_hp_health",
-    "path":"sprites/Sprite_dead_hp_health/Sprite_dead_hp_health.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

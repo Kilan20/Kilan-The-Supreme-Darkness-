@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_dead_hp_health",
+  "%Name":"obj_wall_dead_star_9",
   "eventList":[],
   "managed":true,
-  "name":"Obj_dead_hp_health",
+  "name":"obj_wall_dead_star_9",
   "overriddenProperties":[],
   "parent":{
-    "name":"Object_dead_hp_mana_Kilan",
-    "path":"folders/Object/Object_dead_hp_mana_Kilan.yy",
+    "name":"Object_wall_dead_star",
+    "path":"folders/Object/Object_invisible_walls/Object_wall_dead_star.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,9 +28,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite_dead_hp_health",
-    "path":"sprites/Sprite_dead_hp_health/Sprite_dead_hp_health.yy",
+    "name":"Sprite_wall_dead_star",
+    "path":"sprites/Sprite_wall_dead_star/Sprite_wall_dead_star.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

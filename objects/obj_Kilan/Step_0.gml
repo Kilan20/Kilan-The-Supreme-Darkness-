@@ -129,6 +129,10 @@ if mana >= max_mana{
 if Kosa_Kilan = true{
 	instance_deactivate_object(obj_Kosa_Kilan)
 	} //Удаляем объект если его уже подобрали.
+	else if obj_Kilan.Kosa_Kilan = false{	//Загружаем предмет в точ-точ если его нет или игра ресетнулась. Новая игра тоесть нажата.
+	instance_create_depth(605,118, -100, obj_Kosa_Kilan)
+	obj_Kosa_Kilan.image_angle = 51
+	}
 
 if buff_health1 = false{
 	instance_deactivate_object(Obj_buff_health) //Если бафф убран то удаляем.

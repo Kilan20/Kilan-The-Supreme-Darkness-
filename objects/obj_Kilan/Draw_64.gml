@@ -109,6 +109,8 @@ draw_text(200, 59, hdir)
 draw_text(40,170, global.dead_hp_Kilan_load)
 draw_text(40,150, global.dead_hp_Kilan)
 draw_text(40,190, global.dead_mana_Kilan_visible)
+//draw_text(70,190, x)
+//draw_text(200,190, y)
 //draw_text(200, 70, fus)
 //draw_text(100,120,gravity_speed)
 

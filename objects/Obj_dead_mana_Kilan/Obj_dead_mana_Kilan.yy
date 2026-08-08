@@ -6,8 +6,8 @@
   "name":"Obj_dead_mana_Kilan",
   "overriddenProperties":[],
   "parent":{
-    "name":"Object",
-    "path":"folders/Object.yy",
+    "name":"Object_dead_hp_mana_Kilan",
+    "path":"folders/Object/Object_dead_hp_mana_Kilan.yy",
   },
   "parentObjectId":null,
   "persistent":false,
