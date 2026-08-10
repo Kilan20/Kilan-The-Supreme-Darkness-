@@ -9,7 +9,10 @@
     "name":"Object_wall_dead_star",
     "path":"folders/Object/Object_invisible_walls/Object_wall_dead_star.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"Obj_attack_little_forest_monster_bypass",
+    "path":"objects/Obj_attack_little_forest_monster_bypass/Obj_attack_little_forest_monster_bypass.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

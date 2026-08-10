@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Script_forest_little_monster_AI",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Script_forest_little_monster_AI",
+  "parent":{
+    "name":"Script",
+    "path":"folders/Script.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

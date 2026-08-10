@@ -14,7 +14,8 @@ if paused == false {
 	layer_set_visible(layer_name, false)
 } 
 
-if paused == true or room == R_Menu     or room = R_Menu_Load      or global.dead_hp_Kilan = true  or global.dead_hp_Kilan_load = true{
+if paused == true or room == R_Menu     or room = R_Menu_Load      or global.dead_hp_Kilan = true  or global.dead_hp_Kilan_load = true
+													{
 	window_set_cursor(cr_default);
 }
 

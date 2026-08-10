@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Sprite",
-    "path":"folders/Sprite.yy",
+    "name":"Sprite_dead_Kilan",
+    "path":"folders/Sprite/Sprite_dead_Kilan.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

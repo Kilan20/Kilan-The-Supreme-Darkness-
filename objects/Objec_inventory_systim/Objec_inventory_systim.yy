@@ -9,8 +9,8 @@
   "name":"Objec_inventory_systim",
   "overriddenProperties":[],
   "parent":{
-    "name":"Object",
-    "path":"folders/Object.yy",
+    "name":"Menu",
+    "path":"folders/Object/Object_Controller_Game/Menu.yy",
   },
   "parentObjectId":null,
   "persistent":true,

@@ -1,0 +1,1 @@
+global.forest_sign = false

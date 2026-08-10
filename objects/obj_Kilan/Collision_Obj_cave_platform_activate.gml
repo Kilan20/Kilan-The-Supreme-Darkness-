@@ -1,4 +1,4 @@
-if (gravity_speed >0)
+
 {
 if (instance_place (x, y+gravity_speed, Obj_cave_platform_activate ))
 {

@@ -2,6 +2,20 @@
   "$GMRoomUI":"",
   "%Name":"RoomUI",
   "children":[
+    {"$GMRUILayer":"v1","%Name":"Forest_Sign","alignItems":2,"children":[
+        {"$GMRFlexPanel":"","%Name":"FlexPanel_28","alignItems":2,"children":[
+            {"$GMRInstance":"v4","%Name":"inst_A961A02","colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps",},"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_A961A02","objectId":{"name":"Obj_back_menu_sign","path":"objects/Obj_back_menu_sign/Obj_back_menu_sign.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.4,"scaleY":1.4375,"x":-182.0,"y":-99.0,},
+          ],"flexDirection":0,"height":{"unit":3,"value":16.0,},"justifyContent":1,"name":"FlexPanel_28","nodeColour":4294068306,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":3,"value":40.0,},},
+        {"$GMRFlexPanel":"","%Name":"FlexPanel_27","alignItems":2,"children":[
+            {"$GMRTextItem":"v3","%Name":"text_39788795","alignment":0,"charSpacing":0.0,"colour":4281363334,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps",},"fontId":{"name":"Font_Kilan","path":"fonts/Font_Kilan/Font_Kilan.yy",},"frameH":0.0,"frameW":0.0,"frozen":false,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"lineSpacing":0.0,"name":"text_39788795","paragraphSpacing":0.0,"resourceType":"GMRTextItem","resourceVersion":"2.0","rotation":0.0,"scaleX":0.64846337,"scaleY":0.5916667,"text":"СОБЕРИТЕ   ЧАСТИ   КЛЮЧА\r\n\r\nОНИ   СОБЕРУТ   ВНИЗУ   \r\n\r\nТЕЛЕПОРТЕР.","wrap":false,"x":0.328125,"y":-28.0,},
+          ],"flexDirection":0,"height":{"unit":3,"value":48.0,},"justifyContent":1,"name":"FlexPanel_27","nodeColour":4294068455,"positionType":2,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":3,"value":106.0,},},
+        {"$GMRFlexPanel":"","%Name":"FlexPanel_26","alignItems":2,"children":[
+            {"$GMRSpriteGraphic":"v1","%Name":"graphic_20FFF5FA","animationSpeed":1.0,"colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps",},"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_20FFF5FA","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":25.0,"scaleY":10.5625,"spriteId":{"name":"Sprit_feld_text_sign","path":"sprites/Sprit_feld_text_sign/Sprit_feld_text_sign.yy",},"x":200.0,"y":84.5,},
+          ],"flexDirection":0,"height":{"unit":3,"value":16.0,},"justifyContent":1,"name":"FlexPanel_26","nodeColour":4294089288,"positionType":2,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":3,"value":16.0,},},
+        {"$GMRFlexPanel":"","%Name":"FlexPanel_25","alignItems":2,"children":[
+            {"$GMRSpriteGraphic":"v1","%Name":"graphic_2CB6F245","animationSpeed":1.0,"colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps",},"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_2CB6F245","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":6.765625,"scaleY":3.734375,"spriteId":{"name":"Sprite_menu_sign","path":"sprites/Sprite_menu_sign/Sprite_menu_sign.yy",},"x":0.0,"y":0.0,},
+          ],"flexDirection":0,"height":{"unit":3,"value":64.0,},"justifyContent":1,"name":"FlexPanel_25","nodeColour":4285024498,"positionType":2,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":3,"value":64.0,},},
+      ],"flexDirection":0,"gridX":32,"gridY":32,"justifyContent":1,"name":"Forest_Sign","nodeColour":4284084808,"resourceType":"GMRUILayer","resourceVersion":"2.0","visible":false,},
     {"$GMRUILayer":"v1","%Name":"Dead_Hp_Kilan_Load","alignItems":2,"children":[
         {"$GMRFlexPanel":"","%Name":"FlexPanel_24","alignItems":2,"children":[
             {"$GMRInstance":"v4","%Name":"inst_30EEFF18","colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps",},"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_30EEFF18","objectId":{"name":"Obj_back_dead_hp_Kilan_load","path":"objects/Obj_back_dead_hp_Kilan_load/Obj_back_dead_hp_Kilan_load.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-28.0,"y":-42.0,},
@@ -12,7 +26,7 @@
         {"$GMRFlexPanel":"","%Name":"FlexPanel_21","alignItems":2,"children":[
             {"$GMRSpriteGraphic":"v1","%Name":"graphic_4A85FBA2","animationSpeed":1.0,"colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps",},"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_4A85FBA2","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.328125,"scaleY":1.59375,"spriteId":{"name":"Sprite_dead_menu","path":"sprites/Sprite_dead_menu/Sprite_dead_menu.yy",},"x":0.0,"y":0.0,},
           ],"flexDirection":0,"height":{"unit":3,"value":64.0,},"justifyContent":1,"name":"FlexPanel_21","nodeColour":4290835016,"positionType":2,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":3,"value":64.0,},},
-      ],"flexDirection":0,"gridX":32,"gridY":32,"justifyContent":1,"name":"Dead_Hp_Kilan_Load","nodeColour":4284805704,"resourceType":"GMRUILayer","resourceVersion":"2.0",},
+      ],"flexDirection":0,"gridX":32,"gridY":32,"justifyContent":1,"name":"Dead_Hp_Kilan_Load","nodeColour":4284805704,"resourceType":"GMRUILayer","resourceVersion":"2.0","visible":false,},
     {"$GMRUILayer":"v1","%Name":"Dead_Hp_Kilan","alignItems":2,"children":[
         {"$GMRFlexPanel":"","%Name":"FlexPanel_23","alignItems":2,"children":[
             {"$GMRInstance":"v4","%Name":"inst_3E697082","colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps",},"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3E697082","objectId":{"name":"Obj_dead_hp_health","path":"objects/Obj_dead_hp_health/Obj_dead_hp_health.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":10.7,"scaleY":10.565217,"x":-0.5,"y":-55.0,},
@@ -126,5 +140,5 @@
   "resourceType":"GMRoomUI",
   "resourceVersion":"2.0",
   "viewspaceChildren":[],
-  "visible":false,
+  "visible":true,
 }

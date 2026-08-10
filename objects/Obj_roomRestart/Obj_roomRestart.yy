@@ -10,8 +10,8 @@
   "name":"Obj_roomRestart",
   "overriddenProperties":[],
   "parent":{
-    "name":"Object",
-    "path":"folders/Object.yy",
+    "name":"Object_Controller_Game",
+    "path":"folders/Object/Object_Controller_Game.yy",
   },
   "parentObjectId":null,
   "persistent":true,

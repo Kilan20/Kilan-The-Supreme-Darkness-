@@ -3,7 +3,7 @@ room_goto(R_Starting_location_Forest)
 Obj_pause_menu.paused = false
 
 if global.dead_hp_Kilan = true{
-	instance_create_depth(40,158, 220, obj_Kilan)
+	instance_create_depth(40,158, 240, obj_Kilan)
 	
 	
 	global.dead_hp_Kilan_visible = false

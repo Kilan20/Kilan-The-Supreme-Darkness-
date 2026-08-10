@@ -15,6 +15,8 @@
     {"name":"inst_77332EB1","path":"rooms/R_Forest/R_Forest.yy",},
     {"name":"inst_728D7E1C","path":"rooms/R_Forest/R_Forest.yy",},
     {"name":"inst_3E142705","path":"rooms/R_Forest/R_Forest.yy",},
+    {"name":"inst_38B4A43D","path":"rooms/R_Forest/R_Forest.yy",},
+    {"name":"inst_381623A0","path":"rooms/R_Forest/R_Forest.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -31,6 +33,7 @@
         ],"TileDataFormat":1,},"tilesetId":{"name":"Forest","path":"tilesets/Forest/Forest.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRAssetLayer":"","%Name":"Sprite","assets":[],"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Sprite","properties":[],"resourceType":"GMRAssetLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
+        {"$GMRInstance":"v4","%Name":"inst_38B4A43D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_38B4A43D","objectId":{"name":"Obj_Sign","path":"objects/Obj_Sign/Obj_Sign.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.5,"scaleY":0.5,"x":150.5,"y":245.0,},
         {"$GMRInstance":"v4","%Name":"inst_5DB2D844","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5DB2D844","objectId":{"name":"Obj_forest_platform","path":"objects/Obj_forest_platform/Obj_forest_platform.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":151.0,"y":258.0,},
         {"$GMRInstance":"v4","%Name":"inst_76D1DA3E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_76D1DA3E","objectId":{"name":"Obj_forest_platform","path":"objects/Obj_forest_platform/Obj_forest_platform.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.46875,"scaleY":0.6,"x":185.46875,"y":443.8,},
         {"$GMRInstance":"v4","%Name":"inst_4EB7FC39","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4EB7FC39","objectId":{"name":"Obj_forest_ladder","path":"objects/Obj_forest_ladder/Obj_forest_ladder.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.9066668,"x":102.0,"y":529.0,},
@@ -40,13 +43,14 @@
         {"$GMRInstance":"v4","%Name":"inst_77332EB1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_77332EB1","objectId":{"name":"Obj_forest_platform","path":"objects/Obj_forest_platform/Obj_forest_platform.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.46875,"scaleY":0.6,"x":186.0,"y":302.0,},
         {"$GMRInstance":"v4","%Name":"inst_728D7E1C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_728D7E1C","objectId":{"name":"obj_wall_dead_star_3","path":"objects/obj_wall_dead_star_3/obj_wall_dead_star_3.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.265625,"scaleY":10.9375,"x":-16.0,"y":0.0,},
         {"$GMRInstance":"v4","%Name":"inst_3E142705","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3E142705","objectId":{"name":"obj_wall_dead_star_9","path":"objects/obj_wall_dead_star_9/obj_wall_dead_star_9.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.203125,"scaleY":10.9375,"x":300.0,"y":0.0,},
+        {"$GMRInstance":"v4","%Name":"inst_381623A0","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_381623A0","objectId":{"name":"Obj_roomTransitions","path":"objects/Obj_roomTransitions/Obj_roomTransitions.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.078125,"scaleY":1.875,"x":1.0,"y":120.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":true,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4279176977,"depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
   "name":"R_Forest",
   "parent":{
-    "name":"Room",
-    "path":"folders/Room.yy",
+    "name":"R_Forest",
+    "path":"folders/Room/R_Forest.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

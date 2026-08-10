@@ -3,7 +3,7 @@ if global.dead_hp_Kilan = true{
 	layer_set_visible(layer_name, true);
 }
 
-if room = R_Menu or instance_exists(obj_Kilan){
+if room = R_Menu or instance_exists(obj_Kilan) or room = R_Menu_Load{
 	layer_set_visible(layer_name, false);
 } 
 if global.dead_hp_Kilan_load = false{

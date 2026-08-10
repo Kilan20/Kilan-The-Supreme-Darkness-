@@ -2,9 +2,13 @@
 //instance_create_depth(x,y,100,obj_Kilan)
 //}
 if !instance_exists(obj_Kilan){
-	instance_create_depth(x,y,220,obj_Kilan)
+	instance_create_depth(x,y,280,obj_Kilan)
 }
 
+
+if instance_exists(Obj_circular_saw){
+Obj_circular_saw.curcular_saw_rage = false //Отключаем ярость циркулярки.
+}
 
 
 

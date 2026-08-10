@@ -20,3 +20,7 @@ boss_dead_check = false
 Kosa_Kilan = false
 global.boss_dead_check = false
 }
+
+if instance_exists(Obj_circular_saw){
+Obj_circular_saw.curcular_saw_rage = false //Отключаем ярость циркулярки.
+}

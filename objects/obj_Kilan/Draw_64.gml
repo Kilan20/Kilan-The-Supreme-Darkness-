@@ -109,6 +109,9 @@ draw_text(200, 59, hdir)
 draw_text(40,170, global.dead_hp_Kilan_load)
 draw_text(40,150, global.dead_hp_Kilan)
 draw_text(40,190, global.dead_mana_Kilan_visible)
+if instance_exists(Obj_Sign){
+draw_text(70,60, global.forest_sign)
+}
 //draw_text(70,190, x)
 //draw_text(200,190, y)
 //draw_text(200, 70, fus)
@@ -192,6 +195,18 @@ if arrow_controller_2 = true and room = R_Cave_boss and Obj_pause_menu.paused !=
 if (instance_exists(Obj_botton)){
 	draw_text(39,100,Obj_botton.)
 */
+
+
+
+
+
+
+if instance_exists(Obj_forest_little_monster){
+	draw_text(100,200, Obj_forest_little_monster.state_3)
+	//draw_text(100,70, Obj_forest_little_monster.is_player_see)
+	draw_text(100,60, Obj_forest_little_monster.y)
+}
+
 
 
 

@@ -37,8 +37,8 @@
   ],
   "name":"R_Cave_Forest_transition",
   "parent":{
-    "name":"Room",
-    "path":"folders/Room.yy",
+    "name":"R_Cave_Forest",
+    "path":"folders/Room/R_Cave_Forest.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

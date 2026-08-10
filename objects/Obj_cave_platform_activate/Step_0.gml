@@ -1,1 +1,1 @@
-instance_deactivate_object(Obj_cave_platform_activate)
+//instance_deactivate_object(Obj_cave_platform_activate)
