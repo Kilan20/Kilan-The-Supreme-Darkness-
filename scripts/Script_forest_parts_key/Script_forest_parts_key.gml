@@ -1,0 +1,4 @@
+global.forest_key_part_1 = false
+global.forest_key_part_2 = false
+global.forest_key_part_3 = false
+global.forest_key_part_4 = false

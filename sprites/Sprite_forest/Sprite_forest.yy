@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"Sprite_areas",
-    "path":"folders/Sprite/Sprite_areas.yy",
+    "name":"Sprite_tile_sets",
+    "path":"folders/Sprite/Sprite_areas/Sprite_tile_sets.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

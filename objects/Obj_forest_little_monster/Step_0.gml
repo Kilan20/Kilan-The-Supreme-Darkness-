@@ -135,6 +135,23 @@ if instance_exists(obj_Kilan){
 	
 	
 	
+	if hp <= 0{
+		instance_deactivate_object(Obj_forest_little_monster)
+		global.enemy_data.forest_little_monster = false
+	}
+	
+	
+	
+	
+	
+	
+	if obj_Kilan.hp <=0{
+		hp = 200
+	}
+	
+	
+	
+	
 	
 	
 	

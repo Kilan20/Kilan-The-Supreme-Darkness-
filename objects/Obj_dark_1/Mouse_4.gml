@@ -33,6 +33,16 @@ ini_write_string("Buff_mana_plis_2", "buff_mana_plis_2",obj_Kilan.buff_mana_plic
 
 
 
+
+
+
+ini_write_real("Global.enemy_data_1", "global.enemy_data_1", global.enemy_data.forest_little_monster)
+
+ini_write_real("Global.forest_key_part_1", "global.forest_key_part_1", global.forest_key_part_1)
+
+
+
+
 ini_write_real("Global.boss_dead_check", "global.boss_dead_check", global.boss_dead_check) //Сохраняем жив ли босс.
 ini_write_real("Global.boss_dead_cave_spider", "global.boss_dead_cave_spider", global.boss_dead_cave_spider) //Сохраняем жив ли паук пещер.
 

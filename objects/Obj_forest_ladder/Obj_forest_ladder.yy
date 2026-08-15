@@ -6,8 +6,8 @@
   "name":"Obj_forest_ladder",
   "overriddenProperties":[],
   "parent":{
-    "name":"Object_ladder",
-    "path":"folders/Object/Object_areas/Object_ladder.yy",
+    "name":"Object_forest_ladder",
+    "path":"folders/Object/Object_areas/Object_ladder/Object_forest_ladder.yy",
   },
   "parentObjectId":null,
   "persistent":false,

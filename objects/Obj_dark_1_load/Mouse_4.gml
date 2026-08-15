@@ -58,6 +58,24 @@ obj_Kilan.buff_mana_plic_2 = ini_read_string("Buff_mana_plis_2", "buff_mana_plis
 
 
 
+global.enemy_data.forest_little_monster = ini_read_real("Global.enemy_data_1", "global.enemy_data_1", 0)
+
+
+
+
+
+
+
+global.forest_key_part_1 = ini_write_real("Global.forest_key_part_1", "global.forest_key_part_1", 0)
+
+
+
+
+
+
+
+
+
 global.boss_dead_check = ini_read_real("Global.boss_dead_check", "global.boss_dead_check",0) //Загружаем жиа ли босс.
 global.boss_dead_cave_spider = ini_read_real("Global.boss_dead_cave_spider", "global.boss_dead_cave_spider",0) //Загружаем жив ли паук пещер.
 
