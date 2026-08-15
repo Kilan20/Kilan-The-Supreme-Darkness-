@@ -152,6 +152,9 @@ if buff_health2_2 = false{
 if buff_mana_plic_2 = false{
 	instance_deactivate_object(Obj_baff_mana_plis_2)
 }
+if global.forest_key_part_1 = true{
+	instance_deactivate_object(Obj_forest_part_key_1)
+}
 }
 
 
