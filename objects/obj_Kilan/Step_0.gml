@@ -155,6 +155,12 @@ if buff_mana_plic_2 = false{
 if global.forest_key_part_1 = true{
 	instance_deactivate_object(Obj_forest_part_key_1)
 }
+if global.forest_key_part_2 = true{
+	instance_deactivate_object(Obj_forest_part_key_2)
+}
+if global.forest_key_part_3 = true{
+	instance_deactivate_object(Obj_forest_part_key_3)
+}
 }
 
 

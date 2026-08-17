@@ -38,7 +38,18 @@ ini_write_string("Buff_mana_plis_2", "buff_mana_plis_2",obj_Kilan.buff_mana_plic
 
 ini_write_real("Global.enemy_data_1", "global.enemy_data_1", global.enemy_data.forest_little_monster)
 
+
+
+
+
+
+
 ini_write_real("Global.forest_key_part_1", "global.forest_key_part_1", global.forest_key_part_1)
+ini_write_real("Global.forest_key_part_2", "global.forest_key_part_2", global.forest_key_part_2)
+ini_write_real("Global.forest_key_part_3", "global.forest_key_part_3", global.forest_key_part_3)
+
+
+
 
 
 
