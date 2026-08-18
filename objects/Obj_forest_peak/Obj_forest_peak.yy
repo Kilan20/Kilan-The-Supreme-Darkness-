@@ -1,13 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_wall_Kilan_up",
-  "eventList":[],
+  "%Name":"Obj_forest_peak",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"Obj_wall_Kilan_up",
+  "name":"Obj_forest_peak",
   "overriddenProperties":[],
   "parent":{
-    "name":"Object_wall_Kilan",
-    "path":"folders/Object/Object_invisible_walls/Object_wall_Kilan.yy",
+    "name":"Object_traps",
+    "path":"folders/Object/Object_areas/Object_traps.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite_wall_Kilan_up",
-    "path":"sprites/Sprite_wall_Kilan_up/Sprite_wall_Kilan_up.yy",
+    "name":"Spr_forest_peak",
+    "path":"sprites/Spr_forest_peak/Spr_forest_peak.yy",
   },
   "spriteMaskId":null,
   "visible":true,

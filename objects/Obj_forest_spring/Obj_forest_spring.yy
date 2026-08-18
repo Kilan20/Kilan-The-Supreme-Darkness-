@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_wall_Kilan_up",
+  "%Name":"Obj_forest_spring",
   "eventList":[],
   "managed":true,
-  "name":"Obj_wall_Kilan_up",
+  "name":"Obj_forest_spring",
   "overriddenProperties":[],
   "parent":{
-    "name":"Object_wall_Kilan",
-    "path":"folders/Object/Object_invisible_walls/Object_wall_Kilan.yy",
+    "name":"Object",
+    "path":"folders/Object.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite_wall_Kilan_up",
-    "path":"sprites/Sprite_wall_Kilan_up/Sprite_wall_Kilan_up.yy",
+    "name":"Spr_forest_spring",
+    "path":"sprites/Spr_forest_spring/Spr_forest_spring.yy",
   },
   "spriteMaskId":null,
   "visible":true,

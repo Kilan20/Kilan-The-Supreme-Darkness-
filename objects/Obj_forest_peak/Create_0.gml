@@ -1,0 +1,1 @@
+move_speed_forest_peak = 2;

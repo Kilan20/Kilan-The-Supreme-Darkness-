@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_wall_Kilan_up",
+  "%Name":"Obj_wall_forest_peak",
   "eventList":[],
   "managed":true,
-  "name":"Obj_wall_Kilan_up",
+  "name":"Obj_wall_forest_peak",
   "overriddenProperties":[],
   "parent":{
-    "name":"Object_wall_Kilan",
-    "path":"folders/Object/Object_invisible_walls/Object_wall_Kilan.yy",
+    "name":"Object_invisible_walls",
+    "path":"folders/Object/Object_invisible_walls.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -32,5 +32,5 @@
     "path":"sprites/Sprite_wall_Kilan_up/Sprite_wall_Kilan_up.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_wall_Kilan_up",
+  "%Name":"Obj_wall_Kilan_up_forest_platform",
   "eventList":[],
   "managed":true,
-  "name":"Obj_wall_Kilan_up",
+  "name":"Obj_wall_Kilan_up_forest_platform",
   "overriddenProperties":[],
   "parent":{
     "name":"Object_wall_Kilan",
@@ -28,9 +28,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite_wall_Kilan_up",
-    "path":"sprites/Sprite_wall_Kilan_up/Sprite_wall_Kilan_up.yy",
+    "name":"Spr_wall_Kilan_up_forest_platform",
+    "path":"sprites/Spr_wall_Kilan_up_forest_platform/Spr_wall_Kilan_up_forest_platform.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }
