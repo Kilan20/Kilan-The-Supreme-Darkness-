@@ -161,6 +161,9 @@ if global.forest_key_part_2 = true{
 if global.forest_key_part_3 = true{
 	instance_deactivate_object(Obj_forest_part_key_3)
 }
+if global.forest_key_part_4 = true{
+	instance_deactivate_object(Obj_forest_part_key_4)
+}
 }
 
 
@@ -213,12 +216,6 @@ if shadow_projectile_Kilan = true{
 	arrow_controller_2 = true //Активируем стрелку вторую.
 	instance_destroy(Obj_ghost_fence_boss_fight_A)
 }
-
-
-
-
-
-
 
 
 

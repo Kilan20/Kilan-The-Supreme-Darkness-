@@ -69,6 +69,7 @@ global.enemy_data.forest_little_monster = ini_read_real("Global.enemy_data_1", "
 global.forest_key_part_1 = ini_read_real("Global.forest_key_part_1", "global.forest_key_part_1", 0)
 global.forest_key_part_2 = ini_read_real("Global.forest_key_part_2", "global.forest_key_part_2", 0)
 global.forest_key_part_3 = ini_read_real("Global.forest_key_part_3", "global.forest_key_part_3", 0)
+global.forest_key_part_4 = ini_read_real("Global.forest_key_part_4", "global.forest_key_part_4", 0)
 
 
 

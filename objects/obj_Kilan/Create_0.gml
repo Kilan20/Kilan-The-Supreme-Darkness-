@@ -75,6 +75,11 @@ global.boss_dead_cave_spider = false
 	
 	
 	
+
+	
+
+move_speed_moving_platform_Kilan = 0; //С какой скоростью двигает платформа меня.
+	
 	
 //fus = false //Проверка столкновений между ударом и пауком.
 	

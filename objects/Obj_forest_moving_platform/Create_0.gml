@@ -1,0 +1,1 @@
+move_speed_moving_platform = 1.5

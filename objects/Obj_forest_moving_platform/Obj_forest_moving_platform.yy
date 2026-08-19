@@ -1,16 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_forest_peak",
+  "%Name":"Obj_forest_moving_platform",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_forest_peak",
+  "name":"Obj_forest_moving_platform",
   "overriddenProperties":[],
   "parent":{
-    "name":"Object_forest_peak",
-    "path":"folders/Object/Object_areas/Object_traps/Object_peak/Object_forest_peak.yy",
+    "name":"Object",
+    "path":"folders/Object.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Spr_forest_peak",
-    "path":"sprites/Spr_forest_peak/Spr_forest_peak.yy",
+    "name":"Spr_forest_moving_platform",
+    "path":"sprites/Spr_forest_moving_platform/Spr_forest_moving_platform.yy",
   },
   "spriteMaskId":null,
   "visible":true,
