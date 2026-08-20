@@ -54,6 +54,12 @@ ini_write_real("Global.forest_key_part_4", "global.forest_key_part_4", global.fo
 
 
 
+ini_write_real("Global.improvement_swing_kosa_kilan_1", "global.improvement_swing_kosa_kilan_1", global.improvement_swing_kosa_kilan_1) //Сохраняем улучшение косы первое.
+
+
+
+
+
 ini_write_real("Global.boss_dead_check", "global.boss_dead_check", global.boss_dead_check) //Сохраняем жив ли босс.
 ini_write_real("Global.boss_dead_cave_spider", "global.boss_dead_cave_spider", global.boss_dead_cave_spider) //Сохраняем жив ли паук пещер.
 

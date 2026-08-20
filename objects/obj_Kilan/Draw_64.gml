@@ -113,6 +113,7 @@ draw_text(40,150, global.forest_key_part_1)
 draw_text(80,150, global.forest_key_part_2)
 draw_text(90,150, global.forest_key_part_3)
 draw_text(120,150, global.forest_key_part_4)
+draw_text(120,200, global.forest_key)
 if instance_exists(Obj_Sign){
 draw_text(70,60, global.forest_sign)
 }

@@ -107,8 +107,8 @@
   ],
   "name":"R_Forest_4",
   "parent":{
-    "name":"Room",
-    "path":"folders/Room.yy",
+    "name":"Forest_part_key",
+    "path":"folders/Room/R_Forest/Forest_part_key.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

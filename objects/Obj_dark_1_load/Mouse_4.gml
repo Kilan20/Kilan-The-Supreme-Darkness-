@@ -75,6 +75,14 @@ global.forest_key_part_4 = ini_read_real("Global.forest_key_part_4", "global.for
 
 
 
+global.improvement_swing_kosa_kilan_1 = ini_read_real("Global.improvement_swing_kosa_kilan_1", "global.improvement_swing_kosa_kilan_1", 0) //Загружаем сохранение улучшения косы первое.
+
+
+
+
+
+
+
 
 
 global.boss_dead_check = ini_read_real("Global.boss_dead_check", "global.boss_dead_check",0) //Загружаем жиа ли босс.

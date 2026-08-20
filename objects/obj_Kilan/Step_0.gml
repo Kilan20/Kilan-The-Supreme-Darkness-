@@ -231,9 +231,18 @@ if shadow_projectile_Kilan = true{
 
 
 
-
-
-
+{	//Ключи и контроль первого глобального портала.
+if global.forest_key_part_1 = true and global.forest_key_part_2 = true //Активируем одну переменную вместо четырех.
+	and global.forest_key_part_3 = true and global.forest_key_part_4 = true{
+	
+		global.forest_key = true
+}
+if global.forest_key = true{ //Активируем портал если есть все части ключа.
+	instance_activate_object(Obj_global_portal)
+} else { //Иначе деактивируем.
+	instance_deactivate_object(Obj_global_portal)
+}
+}
 
 
 
