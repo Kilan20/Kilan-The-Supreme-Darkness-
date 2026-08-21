@@ -70,6 +70,20 @@ ini_write_real("Projectile_Kilan_controller", "projectile_Kilan_controller", glo
 ini_write_real("P", "p", global.projectile_Kilan_controller_2)
 
 
+ini_write_real("C", "F", global.cristal_fiery) //Улучшения сохраняет.
+ini_write_real("C_2", "F_2", global.cristal_fiery_2)
+
+
+
+
+
+
+
+
+
+
+
+
 ini_write_string("u", "p", obj_Kilan.controller_inventory)
 ini_write_string("P", "u", obj_Kilan.shadow_projectile_Kilan)
 

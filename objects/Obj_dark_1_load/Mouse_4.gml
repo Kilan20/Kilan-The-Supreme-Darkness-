@@ -101,6 +101,16 @@ global.projectile_Kilan_controller = ini_read_real("Projectile_Kilan_controller"
 global.projectile_Kilan_controller_2 = ini_read_real("P", "p", 0)
 
 
+global.cristal_fiery = ini_read_real("C", "F", 0) //Загружает сохранения улучшения.
+global.cristal_fiery_2 = ini_read_real("C_2", "F_2", 0)
+
+
+
+
+
+
+
+
 obj_Kilan.controller_inventory =ini_read_string("u", "p", 0)
 obj_Kilan.shadow_projectile_Kilan =ini_read_string("P", "u", 0)
 

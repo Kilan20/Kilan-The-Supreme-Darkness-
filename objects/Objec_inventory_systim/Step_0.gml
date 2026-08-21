@@ -1,4 +1,5 @@
 tab = keyboard_check_pressed(vk_tab)
+esc = keyboard_check_pressed(vk_escape)
 
 if tab = true and obj_Kilan.controller_inventory = true
 {
@@ -12,6 +13,11 @@ if inventory == false{
 if inventory == true or room == R_Menu{
 	window_set_cursor(cr_default);
 }
+
+if esc{ //Выключает инвентарь если нажата кнопка.
+	inventory = false
+}
+
 
 
 

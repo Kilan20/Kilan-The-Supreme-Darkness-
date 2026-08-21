@@ -6,8 +6,8 @@
   "name":"Obj_forest_portal_2",
   "overriddenProperties":[],
   "parent":{
-    "name":"Object_areas",
-    "path":"folders/Object/Object_areas.yy",
+    "name":"Object_forest_portal",
+    "path":"folders/Object/Object_areas/Object_portal/Object_forest_portal.yy",
   },
   "parentObjectId":null,
   "persistent":false,

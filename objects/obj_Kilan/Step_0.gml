@@ -164,6 +164,9 @@ if global.forest_key_part_3 = true{
 if global.forest_key_part_4 = true{
 	instance_deactivate_object(Obj_forest_part_key_4)
 }
+if global.cristal_fiery = true or global.cristal_fiery_2 = true{
+	instance_deactivate_object(Obj_crystal_clear_fiery_improvement_shadow_projectle_no_attack)
+}
 }
 
 

@@ -14,6 +14,14 @@ global.projectile_Kilan_controller = true //Контроль как она на�
 global.projectile_Kilan_controller_2 = false //Это контроль над активной ячейкой.
 
 
+global.cristal_fiery = false //Улучшение контроль.
+global.cristal_fiery_2 = false //Это контроль над активной ячейкой улучшенной магии.
+
+
+
+
+
+
 
 
 

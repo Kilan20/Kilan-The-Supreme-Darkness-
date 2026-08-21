@@ -1,9 +1,7 @@
 {
   "$GMObject":"",
   "%Name":"Obj_botton_B",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "eventList":[],
   "managed":true,
   "name":"Obj_botton_B",
   "overriddenProperties":[],
@@ -11,7 +9,10 @@
     "name":"Object_botton",
     "path":"folders/Object/Object_botton.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"Obj_botton_A",
+    "path":"objects/Obj_botton_A/Obj_botton_A.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

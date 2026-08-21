@@ -6,8 +6,8 @@
   "name":"Obj_global_portal",
   "overriddenProperties":[],
   "parent":{
-    "name":"Object",
-    "path":"folders/Object.yy",
+    "name":"Object_portal",
+    "path":"folders/Object/Object_areas/Object_portal.yy",
   },
   "parentObjectId":null,
   "persistent":false,

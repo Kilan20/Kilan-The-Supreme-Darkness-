@@ -1,0 +1,1 @@
+move_speed_crystal_clear_fiery_improvement_shadow_projectle = 0.2

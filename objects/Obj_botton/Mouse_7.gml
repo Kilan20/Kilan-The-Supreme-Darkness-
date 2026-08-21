@@ -15,6 +15,14 @@ switch (botton_id)
 		instance_activate_object(Obj_shadow_projectile_Kilan_inventory_A)
 		global.projectile_Kilan_controller = true
 		global.projectile_Kilan_controller_2 = false
+		
+		
+		
+		global.cristal_fiery_2 = false //Убирает улучшение.
+		global.cristal_fiery = true
+		
+		
+		
 		instance_activate_object(Obj_botton_B)
 		instance_deactivate_object(Obj_shadow_projectile_Kilan_inventory_B)
 	break;
@@ -22,10 +30,21 @@ switch (botton_id)
 	
 	
 	case 2:
+			if global.projectile_Kilan_controller_2 = true{ //Нельзя активировать бафф без темного.
+		instance_deactivate_object(Obj_crystal_clear_fiery_improvement_shadow_projectle_inventory_A)
+		global.cristal_fiery = false
+		global.cristal_fiery_2 = true
+		instance_deactivate_object(Obj_botton_cristal_fiery_B)
+			}
 	break;
 	
 	
 	
-	case 4:
+	case 2_2:
+		instance_activate_object(Obj_crystal_clear_fiery_improvement_shadow_projectle_inventory_A)
+		global.cristal_fiery = true
+		global.cristal_fiery_2 = false
+		instance_activate_object(Obj_botton_cristal_fiery_B)
+		instance_deactivate_object(Obj_crystal_clear_fiery_improvement_shadow_projectle_inventory_B)
 	break;
 }
