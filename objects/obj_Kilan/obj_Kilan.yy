@@ -88,6 +88,8 @@
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"Obj_forest_part_key_4","path":"objects/Obj_forest_part_key_4/Obj_forest_part_key_4.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"Obj_forest_anvil","path":"objects/Obj_forest_anvil/Obj_forest_anvil.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"Obj_crystal_clear_fiery_improvement_shadow_projectle_no_attack","path":"objects/Obj_crystal_clear_fiery_improvement_shadow_projectle_no_attack/Obj_crystal_clear_fiery_improvement_shadow_projectle_no_attack.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"Obj_global_portal","path":"objects/Obj_global_portal/Obj_global_portal.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"Obj_small_spider","path":"objects/Obj_small_spider/Obj_small_spider.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_Kilan",

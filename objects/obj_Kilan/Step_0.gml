@@ -21,7 +21,7 @@ hdir = right - left
 
 if hdir != 0 and !place_meeting(x,y,Obj_cave_spider_projectile_wed){
 	if !place_meeting(x + hdir*1,y-1,world){
-		x += hdir*1
+		x += hdir*speed_run
 	}
 }
 
@@ -86,7 +86,7 @@ if mana >= max_mana{
 }
 	
 	
-	
+{ //Атака её скорость.
 	
 	
 	mana_cooldown += 0.3
@@ -113,6 +113,20 @@ if mana >= max_mana{
 			if instance_number(Obj_swing_Koca) >= 1 and attack_cooldown2 =11{
 	instance_destroy(Obj_swing_Koca)
 	attack_cooldown2 -=11 //Тут волна атаки убирается.
+}
+}
+
+
+
+
+{ //Контроль когда Килана не смогут атаковать.
+		enumy_attack_coolldowm +=1
+		
+		
+		
+	if enumy_attack_coolldowm >= 10{
+		enumy_attack_coolldowm = 10;
+	}
 }
 
 

@@ -27,8 +27,8 @@
   ],
   "name":"R_Forest_5",
   "parent":{
-    "name":"Room",
-    "path":"folders/Room.yy",
+    "name":"R_Forest",
+    "path":"folders/Room/R_Forest.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

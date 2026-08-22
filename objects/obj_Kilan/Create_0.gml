@@ -19,7 +19,7 @@ global.cristal_fiery_2 = false //Это контроль над активной
 
 
 
-
+speed_run = 1; //Скорость бега
 
 
 
@@ -82,6 +82,17 @@ global.boss_dead_cave_spider = false
 	
 	
 	
+	
+	
+	
+	
+enumy_attack_coolldowm = 0; //Время когда Килана не смогут атаковать.
+	
+	
+	
+	
+	
+
 	
 
 	

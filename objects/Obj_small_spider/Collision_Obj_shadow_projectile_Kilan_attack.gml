@@ -1,0 +1,4 @@
+Small_spider_hp-=Obj_shadow_projectile_Kilan_attack.damage_magic
+
+
+instance_destroy(Obj_shadow_projectile_Kilan_attack)

@@ -95,7 +95,9 @@ draw_sprite_part(Spr_mana_2, 0,0,0, 20, 200, 635,5)
 
 
 //draw_text(100,200,attack_cooldown2)
+
 draw_text(30,36,attack_cooldown)
+
 //draw_text(40,40,persistent)
 //draw_text(50,50,buff_health1)
 //draw_text(70,50,buff_health2)
@@ -107,16 +109,20 @@ draw_text(100,100, mana_cooldown)
 draw_text(200, 59, hdir)
 //draw_text(40,100, global.boss_dead_cave_spider)
 draw_text(40,170, global.dead_hp_Kilan_load)
+draw_text(40,150, enumy_attack_coolldowm)
 //draw_text(40,150, global.dead_hp_Kilan)
 //draw_text(40,190, global.dead_mana_Kilan_visible)
-draw_text(40,150, global.forest_key_part_1)
-draw_text(80,150, global.forest_key_part_2)
-draw_text(90,150, global.forest_key_part_3)
-draw_text(120,150, global.forest_key_part_4)
-draw_text(120,200, global.forest_key)
-if instance_exists(Obj_Sign){
-draw_text(70,60, global.forest_sign)
-}
+//draw_text(40,150, global.forest_key_part_1)
+//draw_text(80,150, global.forest_key_part_2)
+//draw_text(90,150, global.forest_key_part_3)
+//draw_text(120,150, global.forest_key_part_4)
+//draw_text(120,200, global.forest_key)
+
+
+//
+//if instance_exists(Obj_Sign){
+//draw_text(70,60, global.forest_sign)
+//}
 //draw_text(70,190, x)
 //draw_text(200,190, y)
 //draw_text(200, 70, fus)
@@ -206,22 +212,22 @@ if (instance_exists(Obj_botton)){
 
 
 
-if instance_exists(Obj_forest_little_monster){
-	draw_text(100,200, Obj_forest_little_monster.state_3)
+//if instance_exists(Obj_forest_little_monster){
+	//draw_text(100,200, Obj_forest_little_monster.state_3)
 	//draw_text(100,70, Obj_forest_little_monster.is_player_see)
-	draw_text(100,60, Obj_forest_little_monster.y)
-}
+	//draw_text(100,60, Obj_forest_little_monster.y)
+//}
 
 
 
 
-if instance_exists(Obj_cave_spider){
-	draw_text(100,200, Obj_cave_spider.hp_cave_spider)
-	draw_text(100,50, Obj_cave_spider.state_2)
-	draw_text(100,70, Obj_cave_spider.move_y)
-	draw_text(100, 60,Obj_cave_spider.image_angle)
-	draw_text(100, 80, Obj_cave_spider.image_xscale)
-}
+//if instance_exists(Obj_cave_spider){
+	//draw_text(100,200, Obj_cave_spider.hp_cave_spider)
+	//draw_text(100,50, Obj_cave_spider.state_2)
+	//draw_text(100,70, Obj_cave_spider.move_y)
+	//draw_text(100, 60,Obj_cave_spider.image_angle)
+	//draw_text(100, 80, Obj_cave_spider.image_xscale)
+//}
 
 
 

@@ -16,8 +16,8 @@
   "name":"Obj_forest_little_monster",
   "overriddenProperties":[],
   "parent":{
-    "name":"Object",
-    "path":"folders/Object.yy",
+    "name":"Object_enemy",
+    "path":"folders/Object/Object_character/Object_enemy.yy",
   },
   "parentObjectId":{
     "name":"Obj_attack_enemy_boss_controll",

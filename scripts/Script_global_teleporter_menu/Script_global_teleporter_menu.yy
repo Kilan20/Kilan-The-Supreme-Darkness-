@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Script_global_teleporter_menu",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Script_global_teleporter_menu",
+  "parent":{
+    "name":"Script",
+    "path":"folders/Script.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
