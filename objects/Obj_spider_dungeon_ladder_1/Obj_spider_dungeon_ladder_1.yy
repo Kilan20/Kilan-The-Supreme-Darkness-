@@ -1,15 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_T_L_forest",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"Obj_spider_dungeon_ladder_1",
+  "eventList":[],
   "managed":true,
-  "name":"Obj_T_L_forest",
+  "name":"Obj_spider_dungeon_ladder_1",
   "overriddenProperties":[],
   "parent":{
-    "name":"Object_botton_global_portal_menu",
-    "path":"folders/Object/Object_botton/Object_botton_global_portal_menu.yy",
+    "name":"Object_spider_dungeon_ladder",
+    "path":"folders/Object/Object_areas/Object_ladder/Object_spider_dungeon_ladder.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite_T_L_forest",
-    "path":"sprites/Sprite_T_L_forest/Sprite_T_L_forest.yy",
+    "name":"Spr_spider_dungeon_ladder_1",
+    "path":"sprites/Spr_spider_dungeon_ladder_1/Spr_spider_dungeon_ladder_1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -3,7 +3,7 @@
   "%Name":"Sprite_spider_dungeon",
   "bboxMode":0,
   "bbox_bottom":199,
-  "bbox_left":20,
+  "bbox_left":0,
   "bbox_right":199,
   "bbox_top":0,
   "collisionKind":1,

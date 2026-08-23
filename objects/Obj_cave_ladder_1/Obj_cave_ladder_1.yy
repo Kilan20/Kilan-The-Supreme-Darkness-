@@ -6,8 +6,8 @@
   "name":"Obj_cave_ladder_1",
   "overriddenProperties":[],
   "parent":{
-    "name":"Obj_cave_ladder",
-    "path":"folders/Object/Object_areas/Object_ladder/Obj_cave_ladder.yy",
+    "name":"Object_cave_ladder",
+    "path":"folders/Object/Object_areas/Object_ladder/Object_cave_ladder.yy",
   },
   "parentObjectId":null,
   "persistent":false,

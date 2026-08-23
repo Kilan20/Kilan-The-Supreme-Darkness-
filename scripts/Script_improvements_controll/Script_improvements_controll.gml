@@ -3,7 +3,7 @@ global.improvement_swing_kosa_kilan_1 = false //Котроль улучшени�
 
 
 
-
+global.mana_regeneration_necklace = false //Контроль над улучшением регенерации маны.
 
 
 

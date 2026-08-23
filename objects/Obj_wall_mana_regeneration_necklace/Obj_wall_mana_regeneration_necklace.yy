@@ -1,15 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_T_L_forest",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"Obj_wall_mana_regeneration_necklace",
+  "eventList":[],
   "managed":true,
-  "name":"Obj_T_L_forest",
+  "name":"Obj_wall_mana_regeneration_necklace",
   "overriddenProperties":[],
   "parent":{
-    "name":"Object_botton_global_portal_menu",
-    "path":"folders/Object/Object_botton/Object_botton_global_portal_menu.yy",
+    "name":"Object_invisible_walls",
+    "path":"folders/Object/Object_invisible_walls.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,9 +28,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite_T_L_forest",
-    "path":"sprites/Sprite_T_L_forest/Sprite_T_L_forest.yy",
+    "name":"Sprite_wall_Kilan_up",
+    "path":"sprites/Sprite_wall_Kilan_up/Sprite_wall_Kilan_up.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

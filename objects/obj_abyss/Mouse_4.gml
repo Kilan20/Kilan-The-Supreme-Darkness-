@@ -26,6 +26,13 @@ Obj_circular_saw.curcular_saw_rage = false //Отключаем ярость ц�
 }
 
 
+global.cristal_fiery_2 = false
+
+
+
+
+global.improvement_swing_kosa_kilan_1 = false
+global.mana_regeneration_necklace = false
 global.forest_key_part_1 = false
 global.forest_key_part_2 = false
 global.forest_key_part_3 = false

@@ -6,8 +6,8 @@
   "name":"Obj_forest_spring",
   "overriddenProperties":[],
   "parent":{
-    "name":"Object",
-    "path":"folders/Object.yy",
+    "name":"Object_areas",
+    "path":"folders/Object/Object_areas.yy",
   },
   "parentObjectId":null,
   "persistent":false,

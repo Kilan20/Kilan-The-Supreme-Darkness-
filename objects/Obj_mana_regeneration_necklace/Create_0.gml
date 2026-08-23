@@ -1,0 +1,1 @@
+move_speed_mana_regeneration_necklace = 0.2

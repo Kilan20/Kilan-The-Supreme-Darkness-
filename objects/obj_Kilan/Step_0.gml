@@ -62,6 +62,10 @@ if hdir != 0 and !place_meeting(x,y,Obj_cave_spider_projectile_wed){
 
 
 } 
+
+
+
+
 				
 {	//Регенерация и контроль маны.		
 mana_regen += 0.1
@@ -73,6 +77,12 @@ if mana_regen >= 10{
 if mana >= max_mana{
 	mana_regen = false}
 }
+if global.mana_regeneration_necklace = true{
+	mana_regen += 0.1
+}
+
+
+
 	
 {	//Управление поворотом спрайта.
 	

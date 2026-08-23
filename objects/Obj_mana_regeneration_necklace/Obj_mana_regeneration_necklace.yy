@@ -1,15 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_T_L_forest",
+  "%Name":"Obj_mana_regeneration_necklace",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_T_L_forest",
+  "name":"Obj_mana_regeneration_necklace",
   "overriddenProperties":[],
   "parent":{
-    "name":"Object_botton_global_portal_menu",
-    "path":"folders/Object/Object_botton/Object_botton_global_portal_menu.yy",
+    "name":"Object",
+    "path":"folders/Object.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite_T_L_forest",
-    "path":"sprites/Sprite_T_L_forest/Sprite_T_L_forest.yy",
+    "name":"Spr_mana_regeneration_necklace",
+    "path":"sprites/Spr_mana_regeneration_necklace/Spr_mana_regeneration_necklace.yy",
   },
   "spriteMaskId":null,
   "visible":true,
