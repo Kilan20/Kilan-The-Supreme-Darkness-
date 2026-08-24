@@ -63,6 +63,9 @@ ini_write_real("Global.mana_regeneration_necklace", "global.mana_regeneration_ne
 ini_write_real("Global.boss_dead_check", "global.boss_dead_check", global.boss_dead_check) //Сохраняем жив ли босс.
 ini_write_real("Global.boss_dead_cave_spider", "global.boss_dead_cave_spider", global.boss_dead_cave_spider) //Сохраняем жив ли паук пещер.
 
+ini_write_real("Global.spider_gueed_life", "global.spider_gueed_life", global.spider_gueed_life) //Сохраняем жива ли королева пауков.
+
+
 
 
 

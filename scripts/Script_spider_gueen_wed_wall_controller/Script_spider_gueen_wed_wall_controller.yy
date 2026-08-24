@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Script_spider_gueen_wed_wall_controller",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Script_spider_gueen_wed_wall_controller",
+  "parent":{
+    "name":"Script",
+    "path":"folders/Script.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

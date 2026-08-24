@@ -8,6 +8,11 @@ global.mana_regeneration_necklace = false //Контроль над улучше
 
 
 
+global.spider_gueed_life = true
+
+
+
+
 
 
 

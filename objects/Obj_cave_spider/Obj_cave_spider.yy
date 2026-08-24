@@ -11,8 +11,8 @@
   "name":"Obj_cave_spider",
   "overriddenProperties":[],
   "parent":{
-    "name":"Object_enemy",
-    "path":"folders/Object/Object_character/Object_enemy.yy",
+    "name":"Object_cave_spider",
+    "path":"folders/Object/Object_character/Object_enemy/Object_cave_spider.yy",
   },
   "parentObjectId":{
     "name":"Obj_attack_enemy_boss_controll",

@@ -6,12 +6,26 @@ if !instance_exists(obj_Kilan){
 }
 
 
+if instance_exists(Obj_spider_gueen){
+	Obj_spider_gueen.x = 203;
+	Obj_spider_gueen.y = 172
+	Obj_spider_gueen.hp_spider_gueen = Obj_spider_gueen.hp_spider_gueen_max
+	
+}
+
+if instance_exists(Obj_spider_gueen_projectile_wed){
+	instance_destroy(Obj_spider_gueen_projectile_wed)
+}
+
+
+
+
 if instance_exists(Obj_circular_saw){
 Obj_circular_saw.curcular_saw_rage = false //Отключаем ярость циркулярки.
 }
 
 
-
+global.spider_gueen_wed_wall = false
 
 global.dead_hp_Kilan_visible = false
 global.dead_mana_Kilan_visible = false
@@ -20,6 +34,10 @@ global.dead_hp_Kilan = false
 global.dead_hp_Kilan_load = false
 
 
+
+
+
+global.spider_gueed_life = true
 
 
 
@@ -87,6 +105,11 @@ global.mana_regeneration_necklace = ini_read_real("Global.mana_regeneration_neck
 
 global.boss_dead_check = ini_read_real("Global.boss_dead_check", "global.boss_dead_check",0) //Загружаем жиа ли босс.
 global.boss_dead_cave_spider = ini_read_real("Global.boss_dead_cave_spider", "global.boss_dead_cave_spider",0) //Загружаем жив ли паук пещер.
+
+
+global.spider_gueed_life = ini_read_real("Global.spider_gueed_life", "global.spider_gueed_life", 1) //Загружаем жива ли королева пауков.
+
+
 
 
 obj_Kilan.Kosa_Kilan = ini_read_string("Kosa_Kilan", "kosa_Kilan",0)

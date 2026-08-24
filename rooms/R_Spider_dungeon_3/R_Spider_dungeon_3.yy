@@ -30,8 +30,8 @@
   ],
   "name":"R_Spider_dungeon_3",
   "parent":{
-    "name":"Room",
-    "path":"folders/Room.yy",
+    "name":"R_Spider_dungeon",
+    "path":"folders/Room/R_Spider_dungeon.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

@@ -8,6 +8,7 @@
   "instanceCreationOrder":[
     {"name":"inst_15375B92","path":"rooms/R_Spider_dungeon/R_Spider_dungeon.yy",},
     {"name":"inst_4731329E","path":"rooms/R_Spider_dungeon/R_Spider_dungeon.yy",},
+    {"name":"inst_3A5264F5","path":"rooms/R_Spider_dungeon/R_Spider_dungeon.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -18,6 +19,7 @@
     {"$GMRAssetLayer":"","%Name":"Sprite","assets":[],"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Sprite","properties":[],"resourceType":"GMRAssetLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_4731329E","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4731329E","objectId":{"name":"Obj_roomTransitions","path":"objects/Obj_roomTransitions/Obj_roomTransitions.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.09375,"scaleY":1.578125,"x":0.0,"y":100.0,},
+        {"$GMRInstance":"v4","%Name":"inst_3A5264F5","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3A5264F5","objectId":{"name":"Obj_roomTransitions","path":"objects/Obj_roomTransitions/Obj_roomTransitions.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.109375,"scaleY":1.5625,"x":493.0,"y":101.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Instances_portal","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_15375B92","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_15375B92","objectId":{"name":"Obj_global_portal","path":"objects/Obj_global_portal/Obj_global_portal.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":247.0,"y":179.0,},
@@ -26,8 +28,8 @@
   ],
   "name":"R_Spider_dungeon",
   "parent":{
-    "name":"Room",
-    "path":"folders/Room.yy",
+    "name":"R_Spider_dungeon",
+    "path":"folders/Room/R_Spider_dungeon.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Sprite_tile_sets",
-    "path":"folders/Sprite/Sprite_areas/Sprite_tile_sets.yy",
+    "name":"Sprite_spider_dungeon",
+    "path":"folders/Sprite/Sprite_areas/Sprite_tile_sets/Sprite_spider_dungeon.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -19,7 +19,7 @@ jump = keyboard_check(vk_space)
 
 hdir = right - left
 
-if hdir != 0 and !place_meeting(x,y,Obj_cave_spider_projectile_wed){
+if hdir != 0 and !place_meeting(x,y,Obj_cave_spider_projectile_wed) and !place_meeting(x,y,Obj_spider_gueen_projectile_wed){
 	if !place_meeting(x + hdir*1,y-1,world){
 		x += hdir*speed_run
 	}
@@ -137,6 +137,17 @@ if global.mana_regeneration_necklace = true{
 	if enumy_attack_coolldowm >= 10{
 		enumy_attack_coolldowm = 10;
 	}
+	
+	enumy_attack_coolldowm_bosses +=1; //Это для босса.
+	
+	
+	if enumy_attack_coolldowm_bosses >= 20{
+		enumy_attack_coolldowm_bosses = 20
+	}
+	
+	
+	
+	
 }
 
 
@@ -191,6 +202,9 @@ if global.forest_key_part_4 = true{
 if global.cristal_fiery = true or global.cristal_fiery_2 = true{
 	instance_deactivate_object(Obj_crystal_clear_fiery_improvement_shadow_projectle_no_attack)
 }
+if global.mana_regeneration_necklace = true{
+	instance_deactivate_object(Obj_mana_regeneration_necklace)
+}
 }
 
 
@@ -228,6 +242,10 @@ if global.boss_dead_cave_spider = true{
 	instance_destroy(Obj_cave_spider)
 }
 
+
+if global.spider_gueed_life = false{
+	instance_deactivate_object(Obj_spider_gueen)
+}
 
 
 { //Активирует ворота босса первога. Ворота A.

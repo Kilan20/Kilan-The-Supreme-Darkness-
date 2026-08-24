@@ -9,8 +9,8 @@
   "name":"Obj_cave_spider_projectile_wed",
   "overriddenProperties":[],
   "parent":{
-    "name":"Object",
-    "path":"folders/Object.yy",
+    "name":"Object_cave_spider",
+    "path":"folders/Object/Object_character/Object_enemy/Object_cave_spider.yy",
   },
   "parentObjectId":null,
   "persistent":false,

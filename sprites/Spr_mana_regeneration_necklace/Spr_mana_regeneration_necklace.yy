@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"Sprite",
-    "path":"folders/Sprite.yy",
+    "name":"Sprite_buff",
+    "path":"folders/Sprite/Sprite_buff.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

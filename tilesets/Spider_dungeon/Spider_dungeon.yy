@@ -12,8 +12,8 @@
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
-    "name":"Tile Sets",
-    "path":"folders/Tile Sets.yy",
+    "name":"Spider_dungeon",
+    "path":"folders/Tile Sets/Spider_dungeon.yy",
   },
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",

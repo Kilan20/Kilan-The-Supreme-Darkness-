@@ -91,7 +91,7 @@ enumy_attack_coolldowm = 0; //Время когда Килана не смогу
 	
 	
 	
-	
+enumy_attack_coolldowm_bosses = 0 //Время когда Килана не смогут атаковать боссы.
 
 	
 
