@@ -88,23 +88,48 @@ draw_sprite_part(Spr_mana_2, 0,0,0, 20, 200, 635,5)
 }
 
 
+{ //Полоса маны регена.
+	draw_sprite(Spr_mana_regen_barr_Back, 0, 20, 40)
+	
+	draw_sprite_part(Spr_mana_regen_barr, 0, 0, 0, 1+mana_regen*2, 23, 20, 40)
+	
+	
+	if mana_regen <= 0 or mana_regen <= 0.10{
+		
+		draw_sprite_part(Spr_mana_regen_barr, 0, 0, 0, 22, 23, 20, 40)
+		
+	}
+	
+	
+}
+
+{ //Полоса атаки кулдаун.
+	if Kosa_Kilan = true{
+	
+	
+	draw_sprite(Spr_attack_cooldown_Back, 0, 40, 40)
+	
+	
+	
+	draw_sprite_part(Spr_attack_cooldown, 0, 0, 0, 1+attack_cooldown*2, 23, 40, 40)
+	
+	
+	
+	}
+}
 
 
-// draw_text(100,150, mana)
-//draw_text(100,150,Kosa_Kilan)
 
 
-//draw_text(100,200,attack_cooldown2)
-
-draw_text(30,36,attack_cooldown)
-draw_text(150,90, mana_regen)
-draw_text(100, 79, global.mana_regeneration_necklace)
-draw_text(100, 80, global.spider_gueen_wed_wall)
-draw_text(100,100, mana_cooldown)
-draw_text(200, 59, hdir)
+//draw_text(30,36,attack_cooldown)
+//draw_text(150,90, mana_regen)
+//draw_text(100, 79, global.mana_regeneration_necklace)
+//draw_text(100, 80, global.spider_gueen_wed_wall)
+//draw_text(100,100, mana_cooldown)
+//draw_text(200, 59, hdir)
 //draw_text(40,100, global.boss_dead_cave_spider)
-draw_text(40,170, global.dead_hp_Kilan_load)
-draw_text(40,150, enumy_attack_coolldowm)
+//draw_text(40,170, global.dead_hp_Kilan_load)
+//draw_text(40,150, enumy_attack_coolldowm)
 
 { //Хп барр босса.
 if (instance_exists(Obj_ghost_boss_cave)){ //Хп барр у босса нашего.
@@ -145,6 +170,11 @@ if (instance_exists(Obj_botton)){
 	draw_text(39,100,Obj_botton.)
 */
 
+// draw_text(100,150, mana)
+//draw_text(100,150,Kosa_Kilan)
+
+
+//draw_text(100,200,attack_cooldown2)
 
 
 
