@@ -178,6 +178,16 @@ if (instance_exists(Obj_botton)){
 
 
 
+if instance_exists(Obj_bat_abysss){
+	
+	draw_text(40,100, Obj_bat_abysss.x)
+	
+	draw_text(40,200, Obj_bat_abysss.y)
+}
+
+
+
+
 
 
 //if instance_exists(Obj_forest_little_monster){

@@ -264,7 +264,12 @@ if shadow_projectile_Kilan = true{
 
 
 
-
+{ //Активирует платформы в паучем данже если мать паучиха мертва.
+	if global.spider_gueed_life = false{
+		instance_activate_object(Obj_spider_dungeon_platform)
+	}
+	
+}
 
 
 

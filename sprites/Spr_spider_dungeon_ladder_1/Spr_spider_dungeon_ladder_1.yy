@@ -44,8 +44,8 @@
   },
   "origin":0,
   "parent":{
-    "name":"Sprite_areas",
-    "path":"folders/Sprite/Sprite_areas.yy",
+    "name":"Sprite_ladder",
+    "path":"folders/Sprite/Sprite_areas/Sprite_ladder.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
