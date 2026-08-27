@@ -98,6 +98,7 @@
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"Obj_spider_gueen_projectile_wed","path":"objects/Obj_spider_gueen_projectile_wed/Obj_spider_gueen_projectile_wed.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"Obj_spider_dungeon_platform","path":"objects/Obj_spider_dungeon_platform/Obj_spider_dungeon_platform.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"Obj_bat_abysss","path":"objects/Obj_bat_abysss/Obj_bat_abysss.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"Obj_tentacle_abysss","path":"objects/Obj_tentacle_abysss/Obj_tentacle_abysss.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_Kilan",

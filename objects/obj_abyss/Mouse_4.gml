@@ -48,5 +48,18 @@ if instance_exists(Obj_spider_gueen_projectile_wed){
 	instance_destroy(Obj_spider_gueen_projectile_wed)
 }
 
+if instance_exists(Obj_bat_abysss){
+	Obj_bat_abysss.x = 234;
+	Obj_bat_abysss.y = 271;
+	Obj_bat_abysss.hp_bat_abyss = Obj_bat_abysss.hp_bat_abyss_max
+}
+
+if instance_exists(Obj_tentacle_abysss){
+	Obj_tentacle_abysss.x = 336;
+	Obj_tentacle_abysss.y = 295;
+	Obj_tentacle_abysss.hp_tentacle_abyss = Obj_tentacle_abysss.hp_tentacle_abyss_max
+}
+
+
 
 

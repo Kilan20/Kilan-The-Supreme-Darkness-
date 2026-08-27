@@ -121,15 +121,10 @@ draw_sprite_part(Spr_mana_2, 0,0,0, 20, 200, 635,5)
 
 
 
-//draw_text(30,36,attack_cooldown)
-//draw_text(150,90, mana_regen)
-//draw_text(100, 79, global.mana_regeneration_necklace)
-//draw_text(100, 80, global.spider_gueen_wed_wall)
-//draw_text(100,100, mana_cooldown)
-//draw_text(200, 59, hdir)
-//draw_text(40,100, global.boss_dead_cave_spider)
-//draw_text(40,170, global.dead_hp_Kilan_load)
-//draw_text(40,150, enumy_attack_coolldowm)
+
+
+
+
 
 { //Хп барр босса.
 if (instance_exists(Obj_ghost_boss_cave)){ //Хп барр у босса нашего.
@@ -177,15 +172,23 @@ if (instance_exists(Obj_botton)){
 //draw_text(100,200,attack_cooldown2)
 
 
+//
+//if instance_exists(Obj_bat_abysss){
+//	
+//	draw_text(40,100, Obj_bat_abysss.x)
+//	
+//	draw_text(40,200, Obj_bat_abysss.y)
+//}
 
-if instance_exists(Obj_bat_abysss){
-	
-	draw_text(40,100, Obj_bat_abysss.x)
-	
-	draw_text(40,200, Obj_bat_abysss.y)
-}
-
-
+//draw_text(30,36,attack_cooldown)
+//draw_text(150,90, mana_regen)
+//draw_text(100, 79, global.mana_regeneration_necklace)
+//draw_text(100, 80, global.spider_gueen_wed_wall)
+//draw_text(100,100, mana_cooldown)
+//draw_text(200, 59, hdir)
+//draw_text(40,100, global.boss_dead_cave_spider)
+//draw_text(40,170, global.dead_hp_Kilan_load)
+//draw_text(40,150, enumy_attack_coolldowm)
 
 
 
@@ -232,6 +235,21 @@ if instance_exists(Obj_bat_abysss){
 //draw_text(90,90,tici)
 //draw_text(100,90,rat)
 // draw_text(200,200,mana_regen)
+
+
+
+
+//if instance_exists(Obj_tentacle_abysss){
+//	
+//	draw_text(200, 100, Obj_tentacle_abysss.x)
+//	
+//	
+//	draw_text(200, 100, Obj_tentacle_abysss.x)
+//	
+//	draw_text(200, 200, Obj_tentacle_abysss.y)
+//	
+//}
+
 
 
 
@@ -295,6 +313,8 @@ global.items_size; i++) {
 
 
 }
+
+
 
 { //хп барр королевы пауков.
 	if instance_exists(Obj_spider_gueen){

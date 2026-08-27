@@ -1,6 +1,6 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_bat_abysss",
+  "%Name":"Obj_tentacle_abysss",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
@@ -8,11 +8,11 @@
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"Obj_swing_Koca","path":"objects/Obj_swing_Koca/Obj_swing_Koca.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_bat_abysss",
+  "name":"Obj_tentacle_abysss",
   "overriddenProperties":[],
   "parent":{
-    "name":"Object_enemy",
-    "path":"folders/Object/Object_character/Object_enemy.yy",
+    "name":"Object",
+    "path":"folders/Object.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite_bat_abysss",
-    "path":"sprites/Sprite_bat_abysss/Sprite_bat_abysss.yy",
+    "name":"Sprite_tentacle_abysss",
+    "path":"sprites/Sprite_tentacle_abysss/Sprite_tentacle_abysss.yy",
   },
   "spriteMaskId":null,
   "visible":true,

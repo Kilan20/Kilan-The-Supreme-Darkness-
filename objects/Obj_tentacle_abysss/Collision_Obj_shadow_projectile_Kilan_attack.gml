@@ -1,0 +1,4 @@
+hp_tentacle_abyss-=Obj_shadow_projectile_Kilan_attack.damage_magic
+
+
+instance_destroy(Obj_shadow_projectile_Kilan_attack)
