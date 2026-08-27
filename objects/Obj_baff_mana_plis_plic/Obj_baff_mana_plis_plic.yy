@@ -9,8 +9,8 @@
   "name":"Obj_baff_mana_plis_plic",
   "overriddenProperties":[],
   "parent":{
-    "name":"Object_buff",
-    "path":"folders/Object/Object_pickup_items/Object_buff.yy",
+    "name":"Object_baff_mana",
+    "path":"folders/Object/Object_pickup_items/Object_buff/Object_baff_mana.yy",
   },
   "parentObjectId":null,
   "persistent":false,

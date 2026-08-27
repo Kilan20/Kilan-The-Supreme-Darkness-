@@ -9,8 +9,8 @@
   "name":"Obj_mana_regeneration_necklace",
   "overriddenProperties":[],
   "parent":{
-    "name":"Object",
-    "path":"folders/Object.yy",
+    "name":"Object_buff",
+    "path":"folders/Object/Object_pickup_items/Object_buff.yy",
   },
   "parentObjectId":null,
   "persistent":false,

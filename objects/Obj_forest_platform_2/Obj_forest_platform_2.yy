@@ -6,8 +6,8 @@
   "name":"Obj_forest_platform_2",
   "overriddenProperties":[],
   "parent":{
-    "name":"Object_platform",
-    "path":"folders/Object/Object_areas/Object_platform.yy",
+    "name":"Object_forest_platform",
+    "path":"folders/Object/Object_areas/Object_platform/Object_forest_platform.yy",
   },
   "parentObjectId":null,
   "persistent":false,

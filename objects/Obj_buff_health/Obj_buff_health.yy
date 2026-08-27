@@ -6,8 +6,8 @@
   "name":"Obj_buff_health",
   "overriddenProperties":[],
   "parent":{
-    "name":"Object_buff",
-    "path":"folders/Object/Object_pickup_items/Object_buff.yy",
+    "name":"Object_buff_health",
+    "path":"folders/Object/Object_pickup_items/Object_buff/Object_buff_health.yy",
   },
   "parentObjectId":null,
   "persistent":false,

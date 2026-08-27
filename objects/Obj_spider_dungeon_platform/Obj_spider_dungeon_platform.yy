@@ -8,8 +8,8 @@
   "name":"Obj_spider_dungeon_platform",
   "overriddenProperties":[],
   "parent":{
-    "name":"Object",
-    "path":"folders/Object.yy",
+    "name":"Object_platform",
+    "path":"folders/Object/Object_areas/Object_platform.yy",
   },
   "parentObjectId":null,
   "persistent":false,

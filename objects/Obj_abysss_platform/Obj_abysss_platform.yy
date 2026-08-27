@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_baff_mana_plis_2",
+  "%Name":"Obj_abysss_platform",
   "eventList":[],
   "managed":true,
-  "name":"Obj_baff_mana_plis_2",
+  "name":"Obj_abysss_platform",
   "overriddenProperties":[],
   "parent":{
-    "name":"Object_baff_mana",
-    "path":"folders/Object/Object_pickup_items/Object_buff/Object_baff_mana.yy",
+    "name":"Object_platform",
+    "path":"folders/Object/Object_areas/Object_platform.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Spr_baff_mana_plis",
-    "path":"sprites/Spr_baff_mana_plis/Spr_baff_mana_plis.yy",
+    "name":"Spr_abysss_platform",
+    "path":"sprites/Spr_abysss_platform/Spr_abysss_platform.yy",
   },
   "spriteMaskId":null,
   "visible":true,
