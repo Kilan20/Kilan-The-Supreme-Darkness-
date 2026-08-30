@@ -28,8 +28,8 @@
   ],
   "name":"R_Abysss",
   "parent":{
-    "name":"Room",
-    "path":"folders/Room.yy",
+    "name":"R_Abysss",
+    "path":"folders/Room/R_Abysss.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

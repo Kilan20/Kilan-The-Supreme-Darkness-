@@ -25,8 +25,19 @@ if instance_exists(Obj_tentacle_abysss){
 	Obj_tentacle_abysss.hp_tentacle_abyss = Obj_tentacle_abysss.hp_tentacle_abyss_max
 }
 
+if instance_exists(Obj_moon_abysss){
+	Obj_moon_abysss.x = 185
+	Obj_moon_abysss.y = 216
+	
+	Obj_moon_abysss.hp_moon_abysss = Obj_moon_abysss.hp_moon_abysss_max
+}
 
-
+if instance_exists(Obj_meteor_enemy){
+	Obj_meteor_enemy.x = 390
+	Obj_meteor_enemy.y = 63
+	
+	Obj_meteor_enemy.hp_meteor_enemy = Obj_meteor_enemy.hp_meteor_enemy_max
+}
 
 
 
@@ -111,6 +122,7 @@ global.forest_key_part_4 = ini_read_real("Global.forest_key_part_4", "global.for
 
 
 global.improvement_swing_kosa_kilan_1 = ini_read_real("Global.improvement_swing_kosa_kilan_1", "global.improvement_swing_kosa_kilan_1", 0) //Загружаем сохранение улучшения косы первое.
+global.improvement_swing_kosa_kilan_2 = ini_read_real("Global.improvement_swing_kosa_kilan_2", "global.improvement_swing_kosa_kilan_2", 0) //Загружаем сохранение улучшения косы второго(скорость атаки).
 global.mana_regeneration_necklace = ini_read_real("Global.mana_regeneration_necklace", "global.mana_regeneration_necklace", 0) //Загружает сохранение над улучшением регенерации маны.
 
 

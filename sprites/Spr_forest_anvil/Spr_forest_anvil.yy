@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"Sprite_Anvil",
-    "path":"folders/Sprite/Sprite_areas/Sprite_Anvil.yy",
+    "name":"Sprite_forest_anvil",
+    "path":"folders/Sprite/Sprite_areas/Sprite_Anvil/Sprite_forest_anvil.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

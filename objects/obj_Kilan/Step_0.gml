@@ -30,7 +30,7 @@ if hdir != 0 and !place_meeting(x,y,Obj_cave_spider_projectile_wed) and !place_m
 	
 	
 	if !place_meeting(x,y+gravity_speed,world){
-	   gravity_speed += 0.1
+	   gravity_speed += gravity_down
 	}else{
 		gravity_speed = 0
 		if jump{
@@ -62,6 +62,26 @@ if hdir != 0 and !place_meeting(x,y,Obj_cave_spider_projectile_wed) and !place_m
 
 
 } 
+
+
+
+{ //Контроль понижение графитации в космосе.
+	
+	
+	if room == R_Space{
+		
+		gravity_down = 0.07
+	}
+	
+	
+	
+	
+}
+
+
+
+
+
 
 
 
@@ -125,7 +145,9 @@ if global.mana_regeneration_necklace = true{
 	attack_cooldown2 -=11 //Тут волна атаки убирается.
 }
 }
-
+if global.improvement_swing_kosa_kilan_2{
+	attack_cooldown +=0.2
+}
 
 
 
@@ -149,7 +171,6 @@ if global.mana_regeneration_necklace = true{
 	
 	
 }
-
 
 
 

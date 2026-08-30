@@ -7,6 +7,9 @@ global.mana_regeneration_necklace = false //Контроль над улучше
 
 
 
+global.improvement_swing_kosa_kilan_2 = false //Контроль над улучшением косы Килана второго(скорость атаки).
+
+
 
 global.spider_gueed_life = true
 

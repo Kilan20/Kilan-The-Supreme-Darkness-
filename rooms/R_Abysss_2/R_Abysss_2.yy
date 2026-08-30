@@ -9,6 +9,8 @@
     {"name":"inst_6C2D0585","path":"rooms/R_Abysss_2/R_Abysss_2.yy",},
     {"name":"inst_3C881A57","path":"rooms/R_Abysss_2/R_Abysss_2.yy",},
     {"name":"inst_203BE131","path":"rooms/R_Abysss_2/R_Abysss_2.yy",},
+    {"name":"inst_6801234B","path":"rooms/R_Abysss_2/R_Abysss_2.yy",},
+    {"name":"inst_4985767F","path":"rooms/R_Abysss_2/R_Abysss_2.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -23,13 +25,15 @@
         {"$GMRInstance":"v4","%Name":"inst_6C2D0585","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6C2D0585","objectId":{"name":"Obj_abysss_platform","path":"objects/Obj_abysss_platform/Obj_abysss_platform.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.796875,"scaleY":1.0,"x":32.734375,"y":296.0,},
         {"$GMRInstance":"v4","%Name":"inst_3C881A57","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3C881A57","objectId":{"name":"Obj_roomTransitions","path":"objects/Obj_roomTransitions/Obj_roomTransitions.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.015625,"scaleY":1.0,"x":0.0,"y":207.0,},
         {"$GMRInstance":"v4","%Name":"inst_203BE131","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_203BE131","objectId":{"name":"Obj_abysss_platform_2","path":"objects/Obj_abysss_platform_2/Obj_abysss_platform_2.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.125,"scaleY":1.0,"x":134.75,"y":296.0,},
+        {"$GMRInstance":"v4","%Name":"inst_6801234B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6801234B","objectId":{"name":"Obj_moon_abysss","path":"objects/Obj_moon_abysss/Obj_moon_abysss.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":-1.0,"x":177.0,"y":217.0,},
+        {"$GMRInstance":"v4","%Name":"inst_4985767F","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4985767F","objectId":{"name":"Obj_roomTransitions","path":"objects/Obj_roomTransitions/Obj_roomTransitions.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.046875,"scaleY":1.0,"x":317.0,"y":256.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4281545523,"depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
   "name":"R_Abysss_2",
   "parent":{
-    "name":"Room",
-    "path":"folders/Room.yy",
+    "name":"R_Abysss",
+    "path":"folders/Room/R_Abysss.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

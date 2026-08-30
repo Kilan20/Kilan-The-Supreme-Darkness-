@@ -61,5 +61,21 @@ if instance_exists(Obj_tentacle_abysss){
 }
 
 
+if instance_exists(Obj_moon_abysss){
+	Obj_moon_abysss.x = 185
+	Obj_moon_abysss.y = 216
+	
+	Obj_moon_abysss.hp_moon_abysss = Obj_moon_abysss.hp_moon_abysss_max
+}
+
+if instance_exists(Obj_meteor_enemy){
+	Obj_meteor_enemy.x = 390
+	Obj_meteor_enemy.y = 63
+	
+	Obj_meteor_enemy.hp_meteor_enemy = Obj_meteor_enemy.hp_meteor_enemy_max
+}
+
+
+
 
 

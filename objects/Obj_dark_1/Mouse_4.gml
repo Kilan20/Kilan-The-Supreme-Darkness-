@@ -55,6 +55,7 @@ ini_write_real("Global.forest_key_part_4", "global.forest_key_part_4", global.fo
 
 
 ini_write_real("Global.improvement_swing_kosa_kilan_1", "global.improvement_swing_kosa_kilan_1", global.improvement_swing_kosa_kilan_1) //Сохраняем улучшение косы первое.
+ini_write_real("Global.improvement_swing_kosa_kilan_2", "global.improvement_swing_kosa_kilan_2", global.improvement_swing_kosa_kilan_2) //Сохраняем улучшение косы второго(скорость атаки).
 ini_write_real("Global.mana_regeneration_necklace", "global.mana_regeneration_necklace", global.mana_regeneration_necklace) //Сохраняет улучшение над регенерацией маны.
 
 

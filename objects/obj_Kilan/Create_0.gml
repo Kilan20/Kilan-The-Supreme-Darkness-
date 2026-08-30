@@ -24,6 +24,11 @@ speed_run = 1; //Скорость бега
 
 
 
+gravity_down = 0.1 //Скорость падения.
+
+
+
+
 
 shadow_projectile_Kilan = false //Контролирует подобрали ли магию или нет.
 controller_inventory = false //Контролирует инвентарь.
