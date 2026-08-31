@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"Sprite",
-    "path":"folders/Sprite.yy",
+    "name":"Sprite_meteor",
+    "path":"folders/Sprite/Sprite_areas/Sprite_meteor.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
