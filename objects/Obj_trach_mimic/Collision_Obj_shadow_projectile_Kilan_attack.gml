@@ -1,0 +1,4 @@
+trach_mimic_hp-=Obj_shadow_projectile_Kilan_attack.damage_magic
+
+
+instance_destroy(Obj_shadow_projectile_Kilan_attack)

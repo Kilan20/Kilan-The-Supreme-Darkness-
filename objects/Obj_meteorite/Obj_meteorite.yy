@@ -8,8 +8,8 @@
   "name":"Obj_meteorite",
   "overriddenProperties":[],
   "parent":{
-    "name":"Object",
-    "path":"folders/Object.yy",
+    "name":"Object_meteor",
+    "path":"folders/Object/Object_areas/Object_meteor.yy",
   },
   "parentObjectId":{
     "name":"Obj_meteor_enemy_bypass",

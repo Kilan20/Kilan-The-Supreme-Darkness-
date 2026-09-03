@@ -6,8 +6,8 @@
   "name":"Obj_space_dead_down",
   "overriddenProperties":[],
   "parent":{
-    "name":"Object",
-    "path":"folders/Object.yy",
+    "name":"Object_invisible_walls",
+    "path":"folders/Object/Object_invisible_walls.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -6,8 +6,8 @@
   "name":"Obj_abysss_platform_2",
   "overriddenProperties":[],
   "parent":{
-    "name":"Object_areas",
-    "path":"folders/Object/Object_areas.yy",
+    "name":"Object_platform",
+    "path":"folders/Object/Object_areas/Object_platform.yy",
   },
   "parentObjectId":null,
   "persistent":false,

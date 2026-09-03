@@ -6,8 +6,8 @@
   "name":"Obj_meteor_platform",
   "overriddenProperties":[],
   "parent":{
-    "name":"Object",
-    "path":"folders/Object.yy",
+    "name":"Object_platform",
+    "path":"folders/Object/Object_areas/Object_platform.yy",
   },
   "parentObjectId":{
     "name":"Obj_meteor_enemy_bypass",

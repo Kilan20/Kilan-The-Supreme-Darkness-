@@ -8,8 +8,8 @@
   "name":"Obj_space_anvil",
   "overriddenProperties":[],
   "parent":{
-    "name":"Object",
-    "path":"folders/Object.yy",
+    "name":"Object_anvil",
+    "path":"folders/Object/Object_areas/Object_anvil.yy",
   },
   "parentObjectId":null,
   "persistent":false,

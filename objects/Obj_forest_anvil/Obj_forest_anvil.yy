@@ -8,8 +8,8 @@
   "name":"Obj_forest_anvil",
   "overriddenProperties":[],
   "parent":{
-    "name":"Object_areas",
-    "path":"folders/Object/Object_areas.yy",
+    "name":"Object_anvil",
+    "path":"folders/Object/Object_areas/Object_anvil.yy",
   },
   "parentObjectId":null,
   "persistent":false,
