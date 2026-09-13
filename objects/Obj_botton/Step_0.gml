@@ -55,3 +55,22 @@ if  global.cristal_fiery_2 = true{
 
 
 
+
+
+if global.cristal_fiery_activate = false{
+	instance_activate_object(Obj_botton_cristal_fiery_A)
+	instance_activate_object(Obj_botton_cristal_fiery_B)
+	
+
+	instance_deactivate_object(Obj_crystal_clear_fiery_improvement_shadow_projectle_inventory_A)
+	instance_deactivate_object(Obj_crystal_clear_fiery_improvement_shadow_projectle_inventory_B)
+}
+
+
+
+
+
+
+
+
+

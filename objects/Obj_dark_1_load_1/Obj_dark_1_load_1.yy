@@ -1,15 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_crystal_clear_fiery_improvement_shadow_projectle_inventory_B",
+  "%Name":"Obj_dark_1_load_1",
   "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_crystal_clear_fiery_improvement_shadow_projectle_inventory_B",
+  "name":"Obj_dark_1_load_1",
   "overriddenProperties":[],
   "parent":{
-    "name":"Object_attack_activate",
-    "path":"folders/Object/Object_inventory_items/Object_attack_activate.yy",
+    "name":"Object_botton_load",
+    "path":"folders/Object/Object_botton/Object_botton_load.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Spr_crystal_clear_fiery_improvement_shadow_projectle",
-    "path":"sprites/Spr_crystal_clear_fiery_improvement_shadow_projectle/Spr_crystal_clear_fiery_improvement_shadow_projectle.yy",
+    "name":"Sprite_dark_2",
+    "path":"sprites/Sprite_dark_2/Sprite_dark_2.yy",
   },
   "spriteMaskId":null,
   "visible":true,

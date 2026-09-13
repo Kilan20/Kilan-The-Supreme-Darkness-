@@ -15,6 +15,16 @@ global.spider_gueed_life = true
 
 
 
+global.final_boss_life = true
+
+
+
+
+
+global.cristal_fiery_activate = false
+
+
+
 
 
 

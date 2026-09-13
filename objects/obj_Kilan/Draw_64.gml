@@ -159,6 +159,12 @@ if arrow_controller_2 = true and room = R_Cave_boss and Obj_pause_menu.paused !=
 }
 
 { //Куча комментариев.
+	
+	
+//draw_text(40, 40, global.cristal_fiery_2)	
+	
+//draw_text(40, 40, global.cristal_fiery)
+	
 /*
 
 if (instance_exists(Obj_botton)){
@@ -189,6 +195,12 @@ if (instance_exists(Obj_botton)){
 //draw_text(40,100, global.boss_dead_cave_spider)
 //draw_text(40,170, global.dead_hp_Kilan_load)
 //draw_text(40,150, enumy_attack_coolldowm)
+
+
+
+
+
+
 
 
 

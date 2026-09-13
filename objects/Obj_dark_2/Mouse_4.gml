@@ -1,4 +1,4 @@
-ini_open("Dark_save_1.ini");
+ini_open("Dark_save_2.ini");
 
 
 ini_write_real("position","x",obj_Kilan.x);
@@ -81,8 +81,8 @@ ini_write_real("C_2", "F_2", global.cristal_fiery_2)
 
 
 
-ini_write_real("V2", "v2", global.cristal_fiery_activate)
 
+global.cristal_fiery_activate = ini_read_real("V2", "v2", 0)
 
 
 

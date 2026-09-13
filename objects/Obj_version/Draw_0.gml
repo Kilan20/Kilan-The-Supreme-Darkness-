@@ -1,1 +1,1 @@
-draw_text(x,y, "Version: 0.0.2")
+draw_text(x,y, "Version: 0.0.3")

@@ -180,6 +180,27 @@ if global.improvement_swing_kosa_kilan_2{
 
 
 
+if controller_inventory = false or shadow_projectile_Kilan = false{
+
+	instance_activate_object(Obj_shadow_projectile_Kilan_no_attack)
+
+
+}
+
+
+
+if global.cristal_fiery_activate = false{
+	instance_activate_object(Obj_crystal_clear_fiery_improvement_shadow_projectle_no_attack)
+} else {
+	instance_deactivate_object(Obj_crystal_clear_fiery_improvement_shadow_projectle_no_attack)
+}
+
+
+
+
+
+
+
 {//Активация деактивация баффов.
 
 if Kosa_Kilan = true{
@@ -219,9 +240,6 @@ if global.forest_key_part_3 = true{
 }
 if global.forest_key_part_4 = true{
 	instance_deactivate_object(Obj_forest_part_key_4)
-}
-if global.cristal_fiery = true or global.cristal_fiery_2 = true{
-	instance_deactivate_object(Obj_crystal_clear_fiery_improvement_shadow_projectle_no_attack)
 }
 if global.mana_regeneration_necklace = true{
 	instance_deactivate_object(Obj_mana_regeneration_necklace)

@@ -69,7 +69,7 @@ global.spider_gueed_life = true
 
 
 
-ini_open("Dark_save_1.ini");
+ini_open("Dark_save_2.ini");
 
 
 obj_Kilan.x = ini_read_real("position","x",0);
@@ -127,7 +127,7 @@ global.mana_regeneration_necklace = ini_read_real("Global.mana_regeneration_neck
 
 
 
-
+ini_write_real("V2", "v2", global.cristal_fiery_activate)
 
 
 
@@ -157,10 +157,6 @@ global.cristal_fiery = ini_read_real("C", "F", 0) //Загружает сохр�
 global.cristal_fiery_2 = ini_read_real("C_2", "F_2", 0)
 
 
-
-
-
-global.cristal_fiery_activate = ini_read_real("V2", "v2", 0)
 
 
 
