@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"Sprite",
-    "path":"folders/Sprite.yy",
+    "name":"Spite_trach_mimic",
+    "path":"folders/Sprite/Sprite_character/Sprite_enemy/Spite_trach_mimic.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
