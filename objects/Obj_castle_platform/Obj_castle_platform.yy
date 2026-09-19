@@ -1,16 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_load",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"Obj_castle_platform",
+  "eventList":[],
   "managed":true,
-  "name":"Obj_load",
+  "name":"Obj_castle_platform",
   "overriddenProperties":[],
   "parent":{
-    "name":"Object_botton_pause",
-    "path":"folders/Object/Object_botton/Object_botton_pause.yy",
+    "name":"Object",
+    "path":"folders/Object.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite_load",
-    "path":"sprites/Sprite_load/Sprite_load.yy",
+    "name":"Spr_castle_platform",
+    "path":"sprites/Spr_castle_platform/Spr_castle_platform.yy",
   },
   "spriteMaskId":null,
   "visible":true,

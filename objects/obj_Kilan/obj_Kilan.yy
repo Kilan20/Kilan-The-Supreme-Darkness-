@@ -110,6 +110,7 @@
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"Obj_space_dead_down","path":"objects/Obj_space_dead_down/Obj_space_dead_down.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"Obj_space_anvil","path":"objects/Obj_space_anvil/Obj_space_anvil.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"Obj_trach_mimic","path":"objects/Obj_trach_mimic/Obj_trach_mimic.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"Obj_castle_platform","path":"objects/Obj_castle_platform/Obj_castle_platform.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_Kilan",
