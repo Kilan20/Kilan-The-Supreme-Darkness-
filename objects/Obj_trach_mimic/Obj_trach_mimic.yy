@@ -11,8 +11,8 @@
   "name":"Obj_trach_mimic",
   "overriddenProperties":[],
   "parent":{
-    "name":"Object",
-    "path":"folders/Object.yy",
+    "name":"Object_enemy",
+    "path":"folders/Object/Object_character/Object_enemy.yy",
   },
   "parentObjectId":null,
   "persistent":false,
