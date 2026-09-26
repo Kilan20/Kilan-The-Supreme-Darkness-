@@ -33,8 +33,8 @@
   ],
   "name":"R_Castle",
   "parent":{
-    "name":"Room",
-    "path":"folders/Room.yy",
+    "name":"R_Castle",
+    "path":"folders/Room/R_Castle.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

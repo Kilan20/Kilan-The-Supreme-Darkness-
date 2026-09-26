@@ -160,6 +160,10 @@ if arrow_controller_2 = true and room = R_Cave_boss and Obj_pause_menu.paused !=
 
 { //Куча комментариев.
 	
+	if instance_exists(Obj_fred_giss){
+		draw_text(20,30, Obj_fred_giss.state_fred_giss)
+	}
+	
 	
 //draw_text(40, 40, global.cristal_fiery_2)	
 	
@@ -339,6 +343,18 @@ global.items_size; i++) {
 			
 			draw_sprite_part(Sprite_boss_bar, 0, 0, 0, 360 *_current_hp_boss_spider_gueen,30,159,384)
 		}
+	}
+}
+
+{ //хп барр фред гис.
+	if instance_exists(Obj_fred_giss){
+			
+			draw_sprite(Sprite_boss_bar_back,0,340,400)
+			
+			
+			var _current_hp_boss_fred_giss = (Obj_fred_giss.hp_fred_giss/Obj_fred_giss.hp_fred_giss_max)
+			
+			draw_sprite_part(Sprite_boss_bar, 0, 0, 0, 360 *_current_hp_boss_fred_giss,30,159,384)
 	}
 }
 

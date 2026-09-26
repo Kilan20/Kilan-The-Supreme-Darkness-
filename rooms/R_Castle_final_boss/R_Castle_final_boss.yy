@@ -11,6 +11,7 @@
     {"name":"inst_32456ECD","path":"rooms/R_Castle_final_boss/R_Castle_final_boss.yy",},
     {"name":"inst_2FEE8D3B","path":"rooms/R_Castle_final_boss/R_Castle_final_boss.yy",},
     {"name":"inst_171775A","path":"rooms/R_Castle_final_boss/R_Castle_final_boss.yy",},
+    {"name":"inst_405620A2","path":"rooms/R_Castle_final_boss/R_Castle_final_boss.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -22,6 +23,7 @@
     {"$GMRAssetLayer":"","%Name":"Sprite","assets":[],"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Sprite","properties":[],"resourceType":"GMRAssetLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_3C47E6E4","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3C47E6E4","objectId":{"name":"obj_wall_dead_star_3","path":"objects/obj_wall_dead_star_3/obj_wall_dead_star_3.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.0625,"scaleY":3.359375,"x":-4.0,"y":165.0,},
+        {"$GMRInstance":"v4","%Name":"inst_405620A2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_405620A2","objectId":{"name":"Obj_fred_giss","path":"objects/Obj_fred_giss/Obj_fred_giss.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.05,"scaleY":1.086957,"x":453.0,"y":279.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Instances_castle_platform","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_5179F304","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5179F304","objectId":{"name":"Obj_castle_platform","path":"objects/Obj_castle_platform/Obj_castle_platform.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":7.5,"scaleY":1.0,"x":0.0,"y":350.0,},
@@ -33,8 +35,8 @@
   ],
   "name":"R_Castle_final_boss",
   "parent":{
-    "name":"Room",
-    "path":"folders/Room.yy",
+    "name":"R_Castle",
+    "path":"folders/Room/R_Castle.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

@@ -354,6 +354,5 @@ if global.forest_key = true{ //Активируем портал если ест
 
 
 
-
 x = round(x)
 y = round(y)

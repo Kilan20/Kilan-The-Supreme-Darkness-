@@ -1,0 +1,5 @@
+sprite_index = Spr_fred_giss_protection
+
+
+
+instance_destroy(Obj_shadow_projectile_Kilan_attack)

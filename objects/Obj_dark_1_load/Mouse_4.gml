@@ -39,7 +39,13 @@ if instance_exists(Obj_meteor_enemy){
 	Obj_meteor_enemy.hp_meteor_enemy = Obj_meteor_enemy.hp_meteor_enemy_max
 }
 
-
+if instance_exists(Obj_fred_giss){
+	
+	Obj_fred_giss.x = 453;
+	Obj_fred_giss.y = 279;
+	Obj_fred_giss.state_fred_giss = Fred_giss_AI.Rack
+	Obj_fred_giss.hp_fred_giss = Obj_fred_giss.hp_fred_giss_max
+}
 
 
 

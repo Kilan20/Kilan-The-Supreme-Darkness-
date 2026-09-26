@@ -1,0 +1,1 @@
+instance_destroy(Obj_light_sword)
